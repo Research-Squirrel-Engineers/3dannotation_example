@@ -1,0 +1,23 @@
+name: Java CI
+
+on: [push]
+
+jobs:
+    
+  ontdocI:
+    uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
+    name: Ontdoc I      
+    with: 
+          rdffilepath: data.ttl
+          version: v017dev
+          docpath: docs/
+          prefixns: http://Research-Squirrel-Engineers.io/3dannotation_example/
+          prefixnsshort: data
+          indexpages: true
+          metadatatable: true
+          createcollections: true
+          iiif: true
+          createnonNSPages: true
+          createVOWL: true
+          preferredlang: en
+          ghpages: true
