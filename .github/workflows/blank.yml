@@ -10,7 +10,7 @@ jobs:
     with: 
           rdffilepath: data.ttl
           version: v017dev
-          docpath: docs/
+          docpath: docs
           prefixns: http://Research-Squirrel-Engineers.io/3dannotation_example/
           prefixnsshort: data
           indexpages: true
