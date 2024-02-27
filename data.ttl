@@ -1,0 +1,68 @@
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix data: <http://Research-Squirrel-Engineers.io/3dannotation_example/> .
+@prefix ont: <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix geocrs: <http://www.opengis.net/ont/crs/> .
+@prefix geopesg: <http://situx.github.io/proj4rdf/ont/crs/> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+
+data:ogham_stone rdf:type ont:OghamStone .
+data:ogham_stone rdfs:label "Ogham Stone"@en .
+data:ogham_stone ont:3dmodel data:ogham_stone_3dmodel .
+data:ogham_stone_3dmodel rdf:type ont:3DModel .
+data:ogham_stone_3dmodel rdfs:label "3D Model of Ogham Stone"@en .
+data:ogham_stone_3dmodel foaf:image "http://Research-Squirrel-Engineers.io/3dannotation_example/model.obj"^^xsd:anyURI .
+data:ogham_stone_3dmodel_crossanno rdf:type oa:Annotation .
+data:ogham_stone_3dmodel_crossanno rdfs:label "Annotation of a cross on model.obj"@en .
+data:ogham_stone_3dmodel_crossanno oa:hasBody data:ogham_stone_3dmodel_crossanno_body1 .
+data:ogham_stone_3dmodel_crossanno_body1 rdfs:label "Annotation body  of a cross on model.obj"@en .
+data:ogham_stone_3dmodel_crossanno oa:hasTarget data:ogham_stone_3dmodel_crossanno_target .
+data:ogham_stone_3dmodel_crossanno_target rdfs:label "Annotation target of a cross on model.obj" .
+data:ogham_stone_3dmodel_crossanno_target oa:hasSelector data:ogham_stone_3dmodel_crossanno_target_selector .
+data:ogham_stone_3dmodel_crossanno_target_selector rdf:type sf:Polygon, oa:WKTSelector .
+data:ogham_stone_3dmodel_crossanno_target_selector rdfs:label "Annotation target selector of a cross on model.obj"@en .
+data:ogham_stone_3dmodel_crossanno_target_selector skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
+data:ogham_stone_3dmodel_crossanno_target_selector rdf:value "<http://localcoordinatesystem> POLYGON Z((-0.2406 -1.3736 -2.2320, 3.7007 0.6646 -2.2320, -0.2406 0.6646 -2.2320, -0.2406 -1.3736 -3.4455, 3.7007 -1.3736 -3.4455, 3.7007 0.6646 -3.4455, -0.2406 0.6646 -3.4455, -0.2406 -1.3736 -2.2320))"^^oa:wktLiteral .
+data:ogham_stone_3dmodel_crossanno_target_selector geo:inSRS ont:cartesian_ax3_mm .
+
+
+ont:cartesian_ax3_mm a geocrs:CartesianCS ;
+    rdfs:label "Cartesian coordinate system with 3 axis in millimetre units"@en ;
+    geopesg:asSVG "<svg width='400' height='250' viewbox='0 0 375 220'><defs><marker id='arrowhead' markerWidth='10' markerHeight='7' refX='0' refY='2' orient='auto'><polygon points='0 0, 4 2, 0 4' /></marker></defs><line x1='20' y1='200' x2='200' y2='200' stroke='red' stroke-width='5' marker-end='url(#arrowhead)'></line><text x='110' y='220' class='small'>X: Cartesian X Axis (om:millimetre)</text><line x1='20' y1='200' x2='20' y2='20' stroke='green' stroke-width='5' marker-end='url(#arrowhead)'></line><text x='35' y='20' class='small'>Y: Cartesian Y Axis (om:millimetre)</text><line x1='20' y1='200' x2='190' y2='30' stroke='blue' stroke-width='5' marker-end='url(#arrowhead)'></line><text x='210' y='25' class='small'>Z: Cartesian Z Axis (om:millimetre)</text></svg>"^^geopesg:svgLiteral ;
+    geopesg:asWKT "CS[\"cartesian\",3],AXIS[\"X\", \"geocentricX\", ORDER[1],            LENGTHUNIT[\"millimetre\",1]        ],        AXIS[\"Y\", \"geocentricY\", ORDER[2],            LENGTHUNIT[\"millimetre\",1]        ],        AXIS[\"Z\", \"geocentricZ\", ORDER[3],            LENGTHUNIT[\"millimetre\",1]        ]]"^^<http://www.opengis.net/ont/geosparql/crs#wktLiteral> ;
+    geopesg:axis ars:cartesian_ax3_mm_axis1,
+        ars:cartesian_ax3_mm_axis2,
+        ars:cartesian_ax3_mm_axis3 .
+
+ont:cartesian_ax3_mm_axis1 a geocrs:CoordinateSystemAxis ;
+    rdfs:label "Cartesian coordinate system with 3 axis in millimetre units: Axis 1"@en ;
+    geopesg:abbreviation "X" ;
+    geopesg:axisDirection geopesg:geocentricX ;
+    geopesg:axisOrder "1"^^xsd:int ;
+    om:hasUnit om:millimetre ;
+    geocrs:abbreviation "X" ;
+    geocrs:axisDirection geocrs:geocentricX ;
+    geocrs:axisOrder "1"^^xsd:int .
+
+ont:cartesian_ax3_mm_axis2 a geocrs:CoordinateSystemAxis ;
+    rdfs:label "Cartesian coordinate system with 3 axis in millimetre units: Axis 2"@en ;
+    geopesg:abbreviation "Y" ;
+    geopesg:axisDirection geopesg:geocentricY ;
+    geopesg:axisOrder "2"^^xsd:int ;
+    om:hasUnit om:millimetre ;
+    geocrs:abbreviation "Y" ;
+    geocrs:axisDirection geocrs:geocentricY ;
+    geocrs:axisOrder "2"^^xsd:int .
+
+ont:cartesian_ax3_mm_axis3 a geocrs:CoordinateSystemAxis ;
+    rdfs:label "Cartesian coordinate system with 3 axis in millimetre units: Axis 3"@en ;
+    geopesg:abbreviation "Z" ;
+    geopesg:axisDirection geopesg:geocentricZ ;
+    geopesg:axisOrder "3"^^xsd:int ;
+    om:hasUnit om:millimetre ;
+    geocrs:abbreviation "Z" ;
+    geocrs:axisDirection geocrs:geocentricZ ;
+    geocrs:axisOrder "3"^^xsd:int .
