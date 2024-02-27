@@ -9,7 +9,7 @@
 @prefix sf: <http://www.opengis.net/ont/sf#> .
 @prefix geocrs: <http://www.opengis.net/ont/crs/> .
 @prefix geopesg: <http://situx.github.io/proj4rdf/ont/crs/> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
 
 data:ogham_stone rdf:type ont:OghamStone .
