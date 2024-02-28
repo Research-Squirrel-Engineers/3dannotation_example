@@ -569,7 +569,7 @@ skos: a voaf:Vocabulary ;
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> a void:Dataset,
         adms:Asset ;
     rdfs:label "data_dataset"@en ;
-    vext:averageLiteralLength 68 ;
+    vext:averageLiteralLength 69 ;
     vext:averageObjectIRILength 66 ;
     vext:averagePropertyIRILength 44 ;
     vext:averageSubjectIRILength 83 ;
@@ -581,7 +581,7 @@ skos: a voaf:Vocabulary ;
     vext:languages 1 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-02-28T06:40:43"^^xsd:dateTime ;
+    dcterms:modified "2024-02-28T06:43:36"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
