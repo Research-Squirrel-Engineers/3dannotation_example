@@ -132,7 +132,7 @@ var vowlresult={
      {
       "identifier": "http://xmlns.com/foaf/0.1/image",
       "language": "undefined",
-      "value": "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/model.obj",
+      "value": "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/I-KER-062.obj",
       "type": "iri"
      }
     ]
@@ -147,7 +147,7 @@ var vowlresult={
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
-   "label": "Annotation of a cross on model.obj",
+   "label": "Annotation of a cross on I-KER-062.obj",
    "annotations": {
     "http://www.w3.org/ns/oa#hasBody": [
      {
@@ -190,7 +190,7 @@ var vowlresult={
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
-   "label": "Annotation target selector of a cross on model.obj",
+   "label": "Annotation target selector of a cross on I-KER-062.obj",
    "annotations": {
     "http://www.w3.org/2004/02/skos/core#definition": [
      {

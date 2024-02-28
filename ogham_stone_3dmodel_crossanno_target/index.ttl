@@ -5,8 +5,8 @@
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target> a <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Annotation target of a cross on model.obj" ;
+    rdfs:label "Annotation target of a cross on I-KER-062.obj" ;
     void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
     ns1:hasSelector <http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector> ;
-    ns1:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/model.obj"^^xsd:anyURI .
+    ns1:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/I-KER-062.obj"^^xsd:anyURI .
 

@@ -62,8 +62,8 @@ var tree={
             },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -97,8 +97,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -127,7 +127,7 @@ var tree={
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno",
         "parent": "http://www.w3.org/ns/oa#Annotation",
         "type": "instance",
-        "text": "Annotation of a cross on model.obj (data:ogham_stone_3dmodel_crossanno)",
+        "text": "Annotation of a cross on I-KER-062.obj (data:ogham_stone_3dmodel_crossanno)",
         "data": {}
       },
       {
@@ -139,8 +139,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -168,7 +168,7 @@ var tree={
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
-        "text": "Annotation target selector of a cross on model.obj (data:ogham_stone_3dmodel_crossanno_target_selector)",
+        "text": "Annotation target selector of a cross on I-KER-062.obj (data:ogham_stone_3dmodel_crossanno_target_selector)",
         "data": {}
       },
       {
@@ -182,7 +182,7 @@ var tree={
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector_suniv1_",
         "parent": "http://www.w3.org/ns/oa#WKTSelector",
         "type": "instance",
-        "text": "Annotation target selector of a cross on model.obj (data:ogham_stone_3dmodel_crossanno_target_selector)",
+        "text": "Annotation target selector of a cross on I-KER-062.obj (data:ogham_stone_3dmodel_crossanno_target_selector)",
         "data": {}
       },
       {
@@ -194,8 +194,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.opengis.net/ont/geosparql#inSRS": {
               "instancecount": 1
@@ -242,8 +242,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://situx.github.io/proj4rdf/ont/crs/asSVG": {
               "instancecount": 1
@@ -301,8 +301,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://situx.github.io/proj4rdf/ont/crs/abbreviation": {
               "instancecount": 1
@@ -333,10 +333,6 @@ var tree={
             }
           },
           "from": {
-            "http://situx.github.io/proj4rdf/ont/crs/axis": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/crs/CartesianCS": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1
@@ -396,8 +392,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -407,7 +403,7 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 1,
-              "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone": 1
+              "http://www.w3.org/ns/oa#Annotation": 1
             }
           },
           "from": {}
@@ -430,8 +426,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
