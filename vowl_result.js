@@ -332,7 +332,7 @@ var vowlresult={
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
-   "label": "Annotation target selector of a cross on I-KER-062.obj",
+   "label": "Annotation target selector of Ogham D[...]T (\u1687[...]\u1688) on Tullaherin_II.obj",
    "annotations": {
     "http://www.w3.org/2004/02/skos/core#definition": [
      {

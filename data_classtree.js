@@ -196,7 +196,7 @@ var tree={
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
-        "text": "Annotation target selector of a cross on I-KER-062.obj (data:Tullaherin_II_3dmodel_dt_anno_target_selector)",
+        "text": "Annotation target selector of Ogham D[...]T (\u1687[...]\u1688) on Tullaherin_II.obj (data:Tullaherin_II_3dmodel_dt_anno_target_selector)",
         "data": {}
       },
       {
@@ -217,7 +217,7 @@ var tree={
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector_suniv1_",
         "parent": "http://www.w3.org/ns/oa#WKTSelector",
         "type": "instance",
-        "text": "Annotation target selector of a cross on I-KER-062.obj (data:Tullaherin_II_3dmodel_dt_anno_target_selector)",
+        "text": "Annotation target selector of Ogham D[...]T (\u1687[...]\u1688) on Tullaherin_II.obj (data:Tullaherin_II_3dmodel_dt_anno_target_selector)",
         "data": {}
       },
       {
@@ -368,6 +368,10 @@ var tree={
             }
           },
           "from": {
+            "http://situx.github.io/proj4rdf/ont/crs/axis": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/crs/CartesianCS": 1
+            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1
@@ -438,7 +442,7 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 2,
-              "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3DModel": 2
+              "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone": 2
             }
           },
           "from": {}
