@@ -1,0 +1,12 @@
+@prefix ns1: <http://www.w3.org/ns/oa#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target> a <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Annotation target of ᚉ on CIIC 153" ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns1:hasSelector <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target_selector> ;
+    ns1:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC_153.obj"^^xsd:anyURI .
+

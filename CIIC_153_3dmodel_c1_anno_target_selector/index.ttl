@@ -1,0 +1,16 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target_selector> a <http://www.opengis.net/ont/sf#Polygon>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <http://www.w3.org/ns/oa#WKTSelector>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Annotation target selector of ᚉ on CIIC 153"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    geo:inSRS <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm> ;
+    rdf:value "<http://localcoordinatesystem> POLYGON Z((1.430254 0.446976 0.634666, 2.016316 0.667597 0.634666, 1.430254 0.667597 0.634666, 1.430254 0.446976 0.010635, 2.016316 0.446976 0.010635, 2.016316 0.667597 1.430254, 1.430254 0.667597 0.010635))"^^<http://www.w3.org/ns/oa#wktLiteral> ;
+    skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
+

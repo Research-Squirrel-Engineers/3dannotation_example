@@ -7,5 +7,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: hasTarget"@en ;
     void:property <http://www.w3.org/ns/oa#hasTarget> ;
-    void:triples 2 .
+    void:triples 3 .
 

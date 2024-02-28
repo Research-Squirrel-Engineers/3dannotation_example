@@ -57,10 +57,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153",
+        "parent": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone",
+        "type": "instance",
+        "text": "CIIC 153 (data:CIIC_153)",
+        "data": {}
+      },
+      {
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone",
         "parent": "#",
         "type": "class",
-        "text": "OghamStone (ont:OghamStone) [2]",
+        "text": "OghamStone (ont:OghamStone) [3]",
         "data": {
           "to": {
             "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3dmodel": {
@@ -69,8 +76,8 @@ var tree={
             },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -103,16 +110,23 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel",
+        "parent": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3DModel",
+        "type": "instance",
+        "text": "3D Model of CIIC 153 (data:CIIC_153_3dmodel)",
+        "data": {}
+      },
+      {
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3DModel",
         "parent": "#",
         "type": "class",
-        "text": "3DModel (ont:3DModel) [2]",
+        "text": "3DModel (ont:3DModel) [3]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -152,16 +166,23 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno",
+        "parent": "http://www.w3.org/ns/oa#Annotation",
+        "type": "instance",
+        "text": "Annotation of \u1689 on CIIC 153 (data:CIIC_153_3dmodel_c1_anno)",
+        "data": {}
+      },
+      {
         "id": "http://www.w3.org/ns/oa#Annotation",
         "parent": "#",
         "type": "class",
-        "text": "Annotation (oa:Annotation) [2]",
+        "text": "Annotation (oa:Annotation) [3]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -200,10 +221,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target_selector_suniv0_",
+        "parent": "http://www.opengis.net/ont/sf#Polygon",
+        "type": "instance",
+        "text": "Annotation target selector of \u1689 on CIIC 153 (data:CIIC_153_3dmodel_c1_anno_target_selector)",
+        "data": {}
+      },
+      {
         "id": "http://www.opengis.net/ont/sf#Polygon",
         "parent": "#",
         "type": "class",
-        "text": "Polygon (sf:Polygon) [2]",
+        "text": "Polygon (sf:Polygon) [3]",
         "data": {}
       },
       {
@@ -221,16 +249,23 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target_selector_suniv1_",
+        "parent": "http://www.w3.org/ns/oa#WKTSelector",
+        "type": "instance",
+        "text": "Annotation target selector of \u1689 on CIIC 153 (data:CIIC_153_3dmodel_c1_anno_target_selector)",
+        "data": {}
+      },
+      {
         "id": "http://www.w3.org/ns/oa#WKTSelector",
         "parent": "#",
         "type": "class",
-        "text": "WKTSelector (oa:WKTSelector) [2]",
+        "text": "WKTSelector (oa:WKTSelector) [3]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.opengis.net/ont/geosparql#inSRS": {
               "instancecount": 1
@@ -277,8 +312,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://situx.github.io/proj4rdf/ont/crs/asSVG": {
               "instancecount": 1
@@ -336,8 +371,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://situx.github.io/proj4rdf/ont/crs/abbreviation": {
               "instancecount": 1
@@ -431,8 +466,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -441,13 +476,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 2,
-              "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone": 2
+              "instancecount": 1,
+              "http://www.opengis.net/ont/crs/CartesianCS": 1
             }
           },
           "from": {}
         },
-        "instancecount": 6
+        "instancecount": 5
       },
       {
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Polygon_collection",
@@ -465,8 +500,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -475,14 +510,14 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 2,
-              "http://www.opengis.net/ont/sf#Polygon": 2,
-              "http://www.w3.org/ns/oa#WKTSelector": 2
+              "instancecount": 3,
+              "http://www.opengis.net/ont/sf#Polygon": 3,
+              "http://www.w3.org/ns/oa#WKTSelector": 3
             }
           },
           "from": {}
         },
-        "instancecount": 6
+        "instancecount": 7
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",

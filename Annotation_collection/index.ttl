@@ -7,6 +7,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Annotation Instances Collection"@en ;
     void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
-    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno>,
+    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno> .
 
