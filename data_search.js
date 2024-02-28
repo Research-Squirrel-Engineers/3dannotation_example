@@ -5,7 +5,7 @@ var search={
   "Annotation body  of a cross on I-KER-062.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_body1",
   "Annotation of a cross on I-KER-062.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno",
   "Annotation target of a cross on I-KER-062.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target",
-  "Annotation target selector of a cross on I-KER-062.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector",
+  "Annotation target selector of a cross on I-KER-062.obj ": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector",
   "Cartesian coordinate system with 3 axis in millimetre units": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm",
   "Cartesian coordinate system with 3 axis in millimetre units: Axis 1": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis1",
   "Cartesian coordinate system with 3 axis in millimetre units: Axis 2": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis2",

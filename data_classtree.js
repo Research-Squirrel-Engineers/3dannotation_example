@@ -168,7 +168,7 @@ var tree={
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
-        "text": "Annotation target selector of a cross on I-KER-062.obj (data:ogham_stone_3dmodel_crossanno_target_selector)",
+        "text": "Annotation target selector of a cross on I-KER-062.obj  (data:ogham_stone_3dmodel_crossanno_target_selector)",
         "data": {}
       },
       {
@@ -182,7 +182,7 @@ var tree={
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector_suniv1_",
         "parent": "http://www.w3.org/ns/oa#WKTSelector",
         "type": "instance",
-        "text": "Annotation target selector of a cross on I-KER-062.obj (data:ogham_stone_3dmodel_crossanno_target_selector)",
+        "text": "Annotation target selector of a cross on I-KER-062.obj  (data:ogham_stone_3dmodel_crossanno_target_selector)",
         "data": {}
       },
       {
