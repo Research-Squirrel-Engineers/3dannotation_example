@@ -71,7 +71,7 @@ data:CIIC_153_3dmodel_c1_anno_target_selector rdf:type sf:Polygon, oa:WKTSelecto
 data:CIIC_153_3dmodel_c1_anno_target_selector rdfs:label "Annotation target selector of ᚉ on CIIC 153"@en .
 data:CIIC_153_3dmodel_c1_anno_target_selector skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
 data:CIIC_153_3dmodel_c1_anno_target_selector rdf:value "<http://localcoordinatesystem> POLYGON Z((1.430254 0.446976 0.634666, 2.016316 0.667597 0.634666, 1.430254 0.667597 0.634666, 1.430254 0.446976 0.010635, 2.016316 0.446976 0.010635, 2.016316 0.667597 1.430254, 1.430254 0.667597 0.010635))"^^oa:wktLiteral .
-data:CIIC_153_3dmodel_c1_anno_target_selector geo:inSRS ont:cartesian_ax3_mm .
+data:CIIC_153_3dmodel_c1_anno_target_selector geo:inSRS data:cartesian_ax3_mm .
 
 data:cartesian_ax3_mm a geocrs:CartesianCS ;
     rdfs:label "Cartesian coordinate system with 3 axis in millimetre units"@en ;
@@ -101,7 +101,7 @@ data:cartesian_ax3_mm_axis2 a geocrs:CoordinateSystemAxis ;
     geocrs:axisDirection geocrs:geocentricY ;
     geocrs:axisOrder "2"^^xsd:int .
 
-ont:cartesian_ax3_mm_axis3 a geocrs:CoordinateSystemAxis ;
+data:cartesian_ax3_mm_axis3 a geocrs:CoordinateSystemAxis ;
     rdfs:label "Cartesian coordinate system with 3 axis in millimetre units: Axis 3"@en ;
     geopesg:abbreviation "Z" ;
     geopesg:axisDirection geopesg:geocentricZ ;
