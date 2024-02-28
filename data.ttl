@@ -57,7 +57,7 @@ data:CIIC_153 rdfs:label "CIIC 153"@en .
 data:CIIC_153 ont:3dmodel data:CIIC_153_3dmodel .
 data:CIIC_153_3dmodel rdf:type ont:3DModel .
 data:CIIC_153_3dmodel rdfs:label "3D Model of CIIC 153"@en .
-data:CIIC_153_3dmodel foaf:image "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC_153.obj"^^xsd:anyURI .
+data:CIIC_153_3dmodel foaf:image "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC153.obj"^^xsd:anyURI .
 
 data:CIIC_153_3dmodel_c1_anno rdf:type oa:Annotation .
 data:CIIC_153_3dmodel_c1_anno rdfs:label "Annotation of ᚉ on CIIC 153"@en .
@@ -65,7 +65,7 @@ data:CIIC_153_3dmodel_c1_anno oa:hasBody data:CIIC_153_3dmodel_c1_anno_body .
 data:CIIC_153_3dmodel_c1_anno_body rdfs:label "Annotation body of ᚉ on CIIC 153"@en .
 data:CIIC_153_3dmodel_c1_anno oa:hasTarget data:CIIC_153_3dmodel_c1_anno_target .
 data:CIIC_153_3dmodel_c1_anno_target rdfs:label "Annotation target of ᚉ on CIIC 153" .
-data:CIIC_153_3dmodel_c1_anno_target oa:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC_153.obj"^^xsd:anyURI .
+data:CIIC_153_3dmodel_c1_anno_target oa:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC153.obj"^^xsd:anyURI .
 data:CIIC_153_3dmodel_c1_anno_target oa:hasSelector data:CIIC_153_3dmodel_c1_anno_target_selector .
 data:CIIC_153_3dmodel_c1_anno_target_selector rdf:type sf:Polygon, oa:WKTSelector .
 data:CIIC_153_3dmodel_c1_anno_target_selector rdfs:label "Annotation target selector of ᚉ on CIIC 153"@en .
