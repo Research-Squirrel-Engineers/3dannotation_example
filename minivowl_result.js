@@ -50,14 +50,14 @@ var minivowlresult={
    "uriTo": "http://situx.github.io/proj4rdf/ont/crs/axis"
   },
   {
-   "source": 3,
+   "source": 4,
    "target": 5,
    "valueTo": "inSRS",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#inSRS"
   },
   {
-   "source": 4,
+   "source": 3,
    "target": 5,
    "valueTo": "inSRS",
    "propertyTo": "class",

@@ -324,6 +324,11 @@
     void:property <http://www.w3.org/ns/oa#hasSelector> ;
     void:triples 1 .
 
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasSource> a void:Dataset ;
+    rdfs:label "Property Partition: hasSource"@en ;
+    void:property <http://www.w3.org/ns/oa#hasSource> ;
+    void:triples 1 .
+
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasTarget> a void:Dataset ;
     rdfs:label "Property Partition: hasTarget"@en ;
     void:property <http://www.w3.org/ns/oa#hasTarget> ;
@@ -566,17 +571,17 @@ skos: a voaf:Vocabulary ;
     rdfs:label "data_dataset"@en ;
     vext:averageLiteralLength 66 ;
     vext:averageObjectIRILength 66 ;
-    vext:averagePropertyIRILength 45 ;
+    vext:averagePropertyIRILength 44 ;
     vext:averageSubjectIRILength 84 ;
     vext:datatypes 5 ;
     vext:distinctBlankNodes 0 ;
-    vext:distinctIRIReferences 82 ;
+    vext:distinctIRIReferences 83 ;
     vext:distinctLiterals 28 ;
-    vext:distinctRDFNodes 110 ;
+    vext:distinctRDFNodes 111 ;
     vext:languages 1 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-02-28T00:00:55"^^xsd:dateTime ;
+    dcterms:modified "2024-02-28T00:07:25"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -602,7 +607,7 @@ skos: a voaf:Vocabulary ;
     void:entities 18 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 20 ;
+    void:properties 21 ;
     void:propertyPartition <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_3dmodel>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_abbreviation>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_asSVG>,
@@ -613,6 +618,7 @@ skos: a voaf:Vocabulary ;
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_definition>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasBody>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasSelector>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasSource>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasTarget>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasUnit>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_image>,
@@ -620,7 +626,7 @@ skos: a voaf:Vocabulary ;
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_label>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_type>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_value> ;
-    void:triples 95 ;
+    void:triples 96 ;
     void:uriSpace "http://Research-Squirrel-Engineers.io/3dannotation_example/"^^xsd:string ;
     void:vocabulary vext:,
         dcam:,

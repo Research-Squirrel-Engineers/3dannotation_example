@@ -36,17 +36,17 @@
     rdfs:label "data_dataset"@en ;
     ns1:averageLiteralLength 66 ;
     ns1:averageObjectIRILength 66 ;
-    ns1:averagePropertyIRILength 45 ;
+    ns1:averagePropertyIRILength 44 ;
     ns1:averageSubjectIRILength 84 ;
     ns1:datatypes 5 ;
     ns1:distinctBlankNodes 0 ;
-    ns1:distinctIRIReferences 82 ;
+    ns1:distinctIRIReferences 83 ;
     ns1:distinctLiterals 28 ;
-    ns1:distinctRDFNodes 110 ;
+    ns1:distinctRDFNodes 111 ;
     ns1:languages 1 ;
     ns1:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-02-28T00:00:55"^^xsd:dateTime ;
+    dcterms:modified "2024-02-28T00:07:25"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -72,7 +72,7 @@
     void:entities 18 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 20 ;
+    void:properties 21 ;
     void:propertyPartition <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_3dmodel>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_abbreviation>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_asSVG>,
@@ -83,6 +83,7 @@
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_definition>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasBody>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasSelector>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasSource>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasTarget>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasUnit>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_image>,
@@ -90,7 +91,7 @@
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_label>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_type>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_value> ;
-    void:triples 95 ;
+    void:triples 96 ;
     void:uriSpace "http://Research-Squirrel-Engineers.io/3dannotation_example/"^^xsd:string ;
     void:vocabulary ns1:,
         dcam:,
