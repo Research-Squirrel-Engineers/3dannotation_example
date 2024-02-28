@@ -1,9 +1,10 @@
 var search={
   "3D Model of Ogham Stone": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel",
+  "3D Model of Tullaherin_II": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel",
   "3DModel Instances Collection": "http://Research-Squirrel-Engineers.io/3dannotation_example/3DModel_collection",
   "Annotation Instances Collection": "http://Research-Squirrel-Engineers.io/3dannotation_example/Annotation_collection",
-  "Annotation body  of a cross on I-KER-062.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_body1",
-  "Annotation of a cross on I-KER-062.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno",
+  "Annotation body  of a cross on I-KER-062.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_body1",
+  "Annotation of a cross on I-KER-062.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno",
   "Annotation target of a cross on I-KER-062.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target",
   "Annotation target selector of a cross on I-KER-062.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector",
   "Cartesian coordinate system with 3 axis in millimetre units": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm",
@@ -15,5 +16,6 @@ var search={
   "Ogham Stone": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone",
   "OghamStone Instances Collection": "http://Research-Squirrel-Engineers.io/3dannotation_example/OghamStone_collection",
   "Polygon Instances Collection": "http://Research-Squirrel-Engineers.io/3dannotation_example/Polygon_collection",
+  "Tullaherin_II": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II",
   "WKTSelector Instances Collection": "http://Research-Squirrel-Engineers.io/3dannotation_example/WKTSelector_collection"
 }

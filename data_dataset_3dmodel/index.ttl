@@ -7,5 +7,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: 3dmodel"@en ;
     void:property <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3dmodel> ;
-    void:triples 1 .
+    void:triples 2 .
 

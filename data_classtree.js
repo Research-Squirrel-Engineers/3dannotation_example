@@ -50,10 +50,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II",
+        "parent": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone",
+        "type": "instance",
+        "text": "Tullaherin_II (data:Tullaherin_II)",
+        "data": {}
+      },
+      {
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone",
         "parent": "#",
         "type": "class",
-        "text": "OghamStone (ont:OghamStone) [1]",
+        "text": "OghamStone (ont:OghamStone) [2]",
         "data": {
           "to": {
             "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3dmodel": {
@@ -89,10 +96,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel",
+        "parent": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3DModel",
+        "type": "instance",
+        "text": "3D Model of Tullaherin_II (data:Tullaherin_II_3dmodel)",
+        "data": {}
+      },
+      {
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3DModel",
         "parent": "#",
         "type": "class",
-        "text": "3DModel (ont:3DModel) [1]",
+        "text": "3DModel (ont:3DModel) [2]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -131,10 +145,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno",
+        "parent": "http://www.w3.org/ns/oa#Annotation",
+        "type": "instance",
+        "text": "Annotation of a cross on I-KER-062.obj (data:Tullaherin_II_3dmodel_dt_anno)",
+        "data": {}
+      },
+      {
         "id": "http://www.w3.org/ns/oa#Annotation",
         "parent": "#",
         "type": "class",
-        "text": "Annotation (oa:Annotation) [1]",
+        "text": "Annotation (oa:Annotation) [2]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -172,10 +193,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector_suniv0_",
+        "parent": "http://www.opengis.net/ont/sf#Polygon",
+        "type": "instance",
+        "text": "Annotation target selector of a cross on I-KER-062.obj (data:Tullaherin_II_3dmodel_dt_anno_target_selector)",
+        "data": {}
+      },
+      {
         "id": "http://www.opengis.net/ont/sf#Polygon",
         "parent": "#",
         "type": "class",
-        "text": "Polygon (sf:Polygon) [1]",
+        "text": "Polygon (sf:Polygon) [2]",
         "data": {}
       },
       {
@@ -186,10 +214,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector_suniv1_",
+        "parent": "http://www.w3.org/ns/oa#WKTSelector",
+        "type": "instance",
+        "text": "Annotation target selector of a cross on I-KER-062.obj (data:Tullaherin_II_3dmodel_dt_anno_target_selector)",
+        "data": {}
+      },
+      {
         "id": "http://www.w3.org/ns/oa#WKTSelector",
         "parent": "#",
         "type": "class",
-        "text": "WKTSelector (oa:WKTSelector) [1]",
+        "text": "WKTSelector (oa:WKTSelector) [2]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -333,10 +368,6 @@ var tree={
             }
           },
           "from": {
-            "http://situx.github.io/proj4rdf/ont/crs/axis": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/crs/CartesianCS": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1
@@ -406,13 +437,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1,
-              "http://www.opengis.net/ont/crs/CartesianCS": 1
+              "instancecount": 2,
+              "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3DModel": 2
             }
           },
           "from": {}
         },
-        "instancecount": 5
+        "instancecount": 6
       },
       {
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Polygon_collection",
@@ -440,14 +471,14 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Polygon": 1,
-              "http://www.w3.org/ns/oa#WKTSelector": 1
+              "instancecount": 2,
+              "http://www.opengis.net/ont/sf#Polygon": 2,
+              "http://www.w3.org/ns/oa#WKTSelector": 2
             }
           },
           "from": {}
         },
-        "instancecount": 5
+        "instancecount": 6
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",

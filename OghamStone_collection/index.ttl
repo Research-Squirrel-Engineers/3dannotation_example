@@ -7,5 +7,6 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "OghamStone Instances Collection"@en ;
     void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
-    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone> .
+    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone> .
 
