@@ -8,5 +8,5 @@
     rdfs:label "Annotation target of ᚉ on CIIC 153" ;
     void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
     ns1:hasSelector <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target_selector> ;
-    ns1:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC_153.obj"^^xsd:anyURI .
+    ns1:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC153.obj"^^xsd:anyURI .
 

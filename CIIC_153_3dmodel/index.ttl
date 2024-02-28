@@ -8,5 +8,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "3D Model of CIIC 153"@en ;
     void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
-    foaf:image "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC_153.obj"^^xsd:anyURI .
+    foaf:image "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC153.obj"^^xsd:anyURI .
 

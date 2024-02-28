@@ -476,13 +476,14 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1,
-              "http://www.opengis.net/ont/crs/CartesianCS": 1
+              "instancecount": 3,
+              "http://www.opengis.net/ont/sf#Polygon": 3,
+              "http://www.w3.org/ns/oa#WKTSelector": 3
             }
           },
           "from": {}
         },
-        "instancecount": 5
+        "instancecount": 7
       },
       {
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Polygon_collection",
