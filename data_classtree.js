@@ -403,7 +403,7 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 1,
-              "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone": 1
+              "http://www.w3.org/ns/oa#Annotation": 1
             }
           },
           "from": {}
