@@ -190,7 +190,7 @@ var vowlresult={
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
-   "label": "Annotation target selector of a cross on I-KER-062.obj ",
+   "label": "Annotation target selector of a cross on I-KER-062.obj",
    "annotations": {
     "http://www.w3.org/2004/02/skos/core#definition": [
      {
@@ -204,7 +204,7 @@ var vowlresult={
      {
       "identifier": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
       "language": "undefined",
-      "value": "<http://localcoordinatesystem> POLYGON Z((-0.170012 -0.578254 0.211926, -0.13942 0.0783338 0.211926, -0.170012 0.0783338 0.211926, -0.170012 -0.578254 -0.602014, -0.13942 -0.578254 -0.602014, -0.13942 0.0783338 -0.602014, -0.170012 0.0783338 -0.602014))",
+      "value": "<http://localcoordinatesystem> POLYGON Z((-0.170012 -0.278254 0.421926, -0.13942 0.3783338 0.421926, -0.170012 0.3783338 0.421926, -0.170012 -0.278254 -0.302014, -0.13942 -0.278254 -0.302014, -0.13942 0.3783338 -0.302014, -0.170012 0.3783338 -0.302014))",
       "type": "label"
      }
     ],
