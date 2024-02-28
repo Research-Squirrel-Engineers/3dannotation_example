@@ -1,0 +1,13 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CoordinateSystemAxis_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "CoordinateSystemAxis Instances Collection"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm_axis1>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm_axis2>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm_axis3> .
+

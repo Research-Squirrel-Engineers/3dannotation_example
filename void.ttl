@@ -1,0 +1,666 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vext: <http://ldf.fi/void-ext#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/adms_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/adms# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/brick_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://brickschema.org/schema/Brick# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/csvw_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/csvw# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_situx.github.io_proj4rdf_ont_crs_> a void:Linkset ;
+    rdfs:label "Linkset: data_dataset - geopesg:"@en ;
+    void:linkPredicate <http://situx.github.io/proj4rdf/ont/crs/axisDirection> ;
+    void:objectsTarget <http://situx.github.io/proj4rdf/ont/crs/> ;
+    void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_www.ontology-of-units-of-measure.org_resource_om-2_> a void:Linkset ;
+    rdfs:label "Linkset: data_dataset - Ontology of Units of Measurement (om:)"@en ;
+    void:linkPredicate <http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit> ;
+    void:objectsTarget <http://www.ontology-of-units-of-measure.org/resource/om-2/> ;
+    void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_www.opengis.net_ont_crs_> a void:Linkset ;
+    rdfs:label "Linkset: data_dataset - geocrs:"@en ;
+    void:linkPredicate <http://www.opengis.net/ont/crs/axisDirection>,
+        rdf:type ;
+    void:objectsTarget <http://www.opengis.net/ont/crs/> ;
+    void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    void:triples 3,
+        4 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_www.opengis.net_ont_geosparql_> a void:Linkset ;
+    rdfs:label "Linkset: data_dataset - The GeoSPARQL Ontology (gsp:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget geo: ;
+    void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    void:triples 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_www.opengis.net_ont_sf_> a void:Linkset ;
+    rdfs:label "Linkset: data_dataset - Simple Features Vocabulary (sf:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.opengis.net/ont/sf#> ;
+    void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    void:triples 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_www.w3.org_2004_02_skos_core_> a void:Linkset ;
+    rdfs:label "Linkset: data_dataset - skos:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget skos: ;
+    void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    void:triples 6 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_www.w3.org_ns_oa_> a void:Linkset ;
+    rdfs:label "Linkset: data_dataset - Web Annotation Ontology (oa:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.w3.org/ns/oa#> ;
+    void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    void:triples 2 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/dc_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/elements/1.1/ in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/dcam_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcam/ in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/dcat_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dcat# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/dcmitype_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcmitype/ in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/dcterms_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/terms/ in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/doap_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://usefulinc.com/ns/doap# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/foaf_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/geo_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    voaf:occurrences 2 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/odrl_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/org_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/org# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/owl_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2002/07/owl# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/prof_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dx/prof/ in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/prov_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/prov# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/qb_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/linked-data/cube# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/rdf_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/1999/02/22-rdf-syntax-ns# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/rdfs_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2000/01/rdf-schema# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/schema_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://schema.org/ in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/sh_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/shacl# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/skos_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    voaf:occurrences 12 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/sosa_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/sosa/ in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/ssn_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/ssn/ in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/time_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2006/time# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/vann_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocab/vann/ in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/vext_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://ldf.fi/void-ext# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/voaf_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocommons/voaf# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/void_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://rdfs.org/ns/void# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/wgs_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://www.w3.org/2003/01/geo/wgs84_pos# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/xml_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/XML/1998/namespace in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/xsd_data_dataset_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2001/XMLSchema# in data_dataset" ;
+    voaf:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<https://github.com/Research-Squirrel-Engineers/3dannotation_example> a adms:AssetRepository ;
+    rdfs:label "Repository for data_dataset"@en ;
+    dcat:accessURL "https://github.com/Research-Squirrel-Engineers/3dannotation_example"^^xsd:anyURI ;
+    dcat:dataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_3DModel> a void:Dataset ;
+    rdfs:label "Class Partition: 3DModel"@en ;
+    void:class <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3DModel> ;
+    void:entities 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_3dmodel> a void:Dataset ;
+    rdfs:label "Property Partition: 3dmodel"@en ;
+    void:property <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3dmodel> ;
+    void:triples 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_Annotation> a void:Dataset ;
+    rdfs:label "Class Partition: Annotation"@en ;
+    void:class <http://www.w3.org/ns/oa#Annotation> ;
+    void:entities 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_CartesianCS> a void:Dataset ;
+    rdfs:label "Class Partition: CartesianCS"@en ;
+    void:class <http://www.opengis.net/ont/crs/CartesianCS> ;
+    void:entities 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_Collection> a void:Dataset ;
+    rdfs:label "Class Partition: Collection"@en ;
+    void:class skos:Collection ;
+    void:entities 6 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_CoordinateSystemAxis> a void:Dataset ;
+    rdfs:label "Class Partition: CoordinateSystemAxis"@en ;
+    void:class <http://www.opengis.net/ont/crs/CoordinateSystemAxis> ;
+    void:entities 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_GeometryCollection> a void:Dataset ;
+    rdfs:label "Class Partition: GeometryCollection"@en ;
+    void:class geo:GeometryCollection ;
+    void:entities 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_OghamStone> a void:Dataset ;
+    rdfs:label "Class Partition: OghamStone"@en ;
+    void:class <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone> ;
+    void:entities 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_Polygon> a void:Dataset ;
+    rdfs:label "Class Partition: Polygon"@en ;
+    void:class <http://www.opengis.net/ont/sf#Polygon> ;
+    void:entities 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_SpatialObjectCollection> a void:Dataset ;
+    rdfs:label "Class Partition: SpatialObjectCollection"@en ;
+    void:class geo:SpatialObjectCollection .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_WKTSelector> a void:Dataset ;
+    rdfs:label "Class Partition: WKTSelector"@en ;
+    void:class <http://www.w3.org/ns/oa#WKTSelector> ;
+    void:entities 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_abbreviation> a void:Dataset ;
+    rdfs:label "Property Partition: abbreviation"@en ;
+    void:property <http://situx.github.io/proj4rdf/ont/crs/abbreviation>,
+        <http://www.opengis.net/ont/crs/abbreviation> ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_asSVG> a void:Dataset ;
+    rdfs:label "Property Partition: asSVG"@en ;
+    void:property <http://situx.github.io/proj4rdf/ont/crs/asSVG> ;
+    void:triples 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_asWKT> a void:Dataset ;
+    rdfs:label "Property Partition: asWKT"@en ;
+    void:property <http://situx.github.io/proj4rdf/ont/crs/asWKT> ;
+    void:triples 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_axis> a void:Dataset ;
+    rdfs:label "Property Partition: axis"@en ;
+    void:property <http://situx.github.io/proj4rdf/ont/crs/axis> ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_axisDirection> a void:Dataset ;
+    rdfs:label "Property Partition: axisDirection"@en ;
+    void:property <http://situx.github.io/proj4rdf/ont/crs/axisDirection>,
+        <http://www.opengis.net/ont/crs/axisDirection> ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_axisOrder> a void:Dataset ;
+    rdfs:label "Property Partition: axisOrder"@en ;
+    void:property <http://situx.github.io/proj4rdf/ont/crs/axisOrder>,
+        <http://www.opengis.net/ont/crs/axisOrder> ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_definition> a void:Dataset ;
+    rdfs:label "Property Partition: definition"@en ;
+    void:property skos:definition ;
+    void:triples 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_dist_ttl> a adms:AssetDistribution ;
+    rdfs:label "data_dataset TTL Distribution"@en ;
+    dcat:downloadURL "https://Research-Squirrel-Engineers.github.io/3dannotation_example/index.ttl"^^xsd:anyURI ;
+    dcat:mediaType <http://www.w3.org/ns/formats/Turtle> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasBody> a void:Dataset ;
+    rdfs:label "Property Partition: hasBody"@en ;
+    void:property <http://www.w3.org/ns/oa#hasBody> ;
+    void:triples 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasSelector> a void:Dataset ;
+    rdfs:label "Property Partition: hasSelector"@en ;
+    void:property <http://www.w3.org/ns/oa#hasSelector> ;
+    void:triples 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasTarget> a void:Dataset ;
+    rdfs:label "Property Partition: hasTarget"@en ;
+    void:property <http://www.w3.org/ns/oa#hasTarget> ;
+    void:triples 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasUnit> a void:Dataset ;
+    rdfs:label "Property Partition: hasUnit"@en ;
+    void:property <http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit> ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_image> a void:Dataset ;
+    rdfs:label "Property Partition: image"@en ;
+    void:property foaf:image ;
+    void:triples 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_inSRS> a void:Dataset ;
+    rdfs:label "Property Partition: inSRS"@en ;
+    void:property geo:inSRS ;
+    void:triples 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_label> a void:Dataset ;
+    rdfs:label "Property Partition: label"@en ;
+    void:property rdfs:label ;
+    void:triples 10 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_type> a void:Dataset ;
+    rdfs:label "Property Partition: type"@en ;
+    void:property rdf:type ;
+    void:triples 9 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_value> a void:Dataset ;
+    rdfs:label "Property Partition: value"@en ;
+    void:property rdf:value ;
+    void:triples 1 .
+
+<http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
+
+<http://dbpedia.org/resource/OGC_GeoSPARQL> rdfs:label "OGC GeoSPARQL"@en .
+
+<http://dbpedia.org/resource/Time> rdfs:label "Time Data"@en .
+
+vext: a voaf:Vocabulary ;
+    rdfs:label "vext Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vext"^^xsd:string ;
+    vann:preferredNamespaceUri "http://ldf.fi/void-ext#"^^xsd:anyURI ;
+    voaf:usageInDataset vext:_data_dataset_occ .
+
+dcam: a voaf:Vocabulary ;
+    rdfs:label "dcam Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcam"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcam/"^^xsd:anyURI ;
+    voaf:usageInDataset dcam:_data_dataset_occ .
+
+dcmitype: a voaf:Vocabulary ;
+    rdfs:label "dcmitype Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcmitype"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcmitype/"^^xsd:anyURI ;
+    voaf:usageInDataset dcmitype:_data_dataset_occ .
+
+dc: a voaf:Vocabulary ;
+    rdfs:label "dc Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dc"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/elements/1.1/"^^xsd:anyURI ;
+    voaf:usageInDataset dc:_data_dataset_occ .
+
+dcterms: a voaf:Vocabulary ;
+    rdfs:label "dcterms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcterms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/terms/"^^xsd:anyURI ;
+    voaf:usageInDataset dcterms:_data_dataset_occ .
+
+qb: a voaf:Vocabulary ;
+    rdfs:label "qb Vocabulary"@en ;
+    vann:preferredNamespacePrefix "qb"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/linked-data/cube#"^^xsd:anyURI ;
+    voaf:usageInDataset qb:_data_dataset_occ .
+
+vann: a voaf:Vocabulary ;
+    rdfs:label "vann Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vann"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocab/vann/"^^xsd:anyURI ;
+    voaf:usageInDataset vann:_data_dataset_occ .
+
+voaf: a voaf:Vocabulary ;
+    rdfs:label "voaf Vocabulary"@en ;
+    vann:preferredNamespacePrefix "voaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocommons/voaf#"^^xsd:anyURI ;
+    voaf:usageInDataset voaf:_data_dataset_occ .
+
+void: a voaf:Vocabulary ;
+    rdfs:label "Vocabulary of Interlinked Datasets (VoID)"@en ;
+    vann:preferredNamespacePrefix "void"^^xsd:string ;
+    vann:preferredNamespaceUri "http://rdfs.org/ns/void#"^^xsd:anyURI ;
+    voaf:usageInDataset void:_data_dataset_occ .
+
+doap: a voaf:Vocabulary ;
+    rdfs:label "doap Vocabulary"@en ;
+    vann:preferredNamespacePrefix "doap"^^xsd:string ;
+    vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#"^^xsd:anyURI ;
+    voaf:usageInDataset doap:_data_dataset_occ .
+
+rdf: a voaf:Vocabulary ;
+    rdfs:label "The RDF Concepts Vocabulary (RDF)"@en ;
+    vann:preferredNamespacePrefix "rdf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/1999/02/22-rdf-syntax-ns#"^^xsd:anyURI ;
+    voaf:usageInDataset rdf:_data_dataset_occ .
+
+rdfs: a voaf:Vocabulary ;
+    rdfs:label "The RDF Schema vocabulary (RDFS)"@en ;
+    vann:preferredNamespacePrefix "rdfs"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
+    voaf:usageInDataset rdfs:_data_dataset_occ .
+
+xsd: a voaf:Vocabulary ;
+    rdfs:label "XML Schema"@en ;
+    vann:preferredNamespacePrefix "xsd"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#"^^xsd:anyURI ;
+    voaf:usageInDataset xsd:_data_dataset_occ .
+
+owl: a voaf:Vocabulary ;
+    rdfs:label "Web Ontology Language 2 Vocabulary"@en ;
+    vann:preferredNamespacePrefix "owl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#"^^xsd:anyURI ;
+    voaf:usageInDataset owl:_data_dataset_occ .
+
+time: a voaf:Vocabulary ;
+    rdfs:label "time Vocabulary"@en ;
+    vann:preferredNamespacePrefix "time"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2006/time#"^^xsd:anyURI ;
+    voaf:usageInDataset time:_data_dataset_occ .
+
+xml: a voaf:Vocabulary ;
+    rdfs:label "xml Vocabulary"@en ;
+    vann:preferredNamespacePrefix "xml"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/XML/1998/namespace"^^xsd:anyURI ;
+    voaf:usageInDataset xml:_data_dataset_occ .
+
+adms: a voaf:Vocabulary ;
+    rdfs:label "adms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "adms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/adms#"^^xsd:anyURI ;
+    voaf:usageInDataset adms:_data_dataset_occ .
+
+csvw: a voaf:Vocabulary ;
+    rdfs:label "csvw Vocabulary"@en ;
+    vann:preferredNamespacePrefix "csvw"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/csvw#"^^xsd:anyURI ;
+    voaf:usageInDataset csvw:_data_dataset_occ .
+
+dcat: a voaf:Vocabulary ;
+    rdfs:label "DCAT Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcat"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dcat#"^^xsd:anyURI ;
+    voaf:usageInDataset dcat:_data_dataset_occ .
+
+prof: a voaf:Vocabulary ;
+    rdfs:label "prof Vocabulary"@en ;
+    vann:preferredNamespacePrefix "prof"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dx/prof/"^^xsd:anyURI ;
+    voaf:usageInDataset prof:_data_dataset_occ .
+
+odrl: a voaf:Vocabulary ;
+    rdfs:label "odrl Vocabulary"@en ;
+    vann:preferredNamespacePrefix "odrl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/odrl/2/"^^xsd:anyURI ;
+    voaf:usageInDataset odrl:_data_dataset_occ .
+
+org: a voaf:Vocabulary ;
+    rdfs:label "org Vocabulary"@en ;
+    vann:preferredNamespacePrefix "org"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/org#"^^xsd:anyURI ;
+    voaf:usageInDataset org:_data_dataset_occ .
+
+prov: a voaf:Vocabulary ;
+    rdfs:label "W3C Provenance Ontology"@en ;
+    vann:preferredNamespacePrefix "prov"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/prov#"^^xsd:anyURI ;
+    voaf:usageInDataset prov:_data_dataset_occ .
+
+sh: a voaf:Vocabulary ;
+    rdfs:label "Shapes Constraint Language (SHACL)"@en ;
+    vann:preferredNamespacePrefix "sh"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/shacl#"^^xsd:anyURI ;
+    voaf:usageInDataset sh:_data_dataset_occ .
+
+sosa: a voaf:Vocabulary ;
+    rdfs:label "Sensor, Observation, Sample, and Actuator (SOSA) Ontology"@en ;
+    vann:preferredNamespacePrefix "sosa"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/sosa/"^^xsd:anyURI ;
+    voaf:usageInDataset sosa:_data_dataset_occ .
+
+ssn: a voaf:Vocabulary ;
+    rdfs:label "ssn Vocabulary"@en ;
+    vann:preferredNamespacePrefix "ssn"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/ssn/"^^xsd:anyURI ;
+    voaf:usageInDataset ssn:_data_dataset_occ .
+
+<http://www.wikidata.org/entity/Q121810372> rdfs:label "geospatial data"@en .
+
+foaf: a voaf:Vocabulary ;
+    rdfs:label "Friend Of A Friend Ontology"@en ;
+    vann:preferredNamespacePrefix "foaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/"^^xsd:anyURI ;
+    voaf:usageInDataset foaf:_data_dataset_occ .
+
+foaf:Person rdfs:label "Person"@en .
+
+brick: a voaf:Vocabulary ;
+    rdfs:label "brick Vocabulary"@en ;
+    vann:preferredNamespacePrefix "brick"^^xsd:string ;
+    vann:preferredNamespaceUri "https://brickschema.org/schema/Brick#"^^xsd:anyURI ;
+    voaf:usageInDataset brick:_data_dataset_occ .
+
+schema: a voaf:Vocabulary ;
+    rdfs:label "schema Vocabulary"@en ;
+    vann:preferredNamespacePrefix "schema"^^xsd:string ;
+    vann:preferredNamespaceUri "https://schema.org/"^^xsd:anyURI ;
+    voaf:usageInDataset schema:_data_dataset_occ .
+
+wgs: a voaf:Vocabulary ;
+    rdfs:label "wgs Vocabulary"@en ;
+    vann:preferredNamespacePrefix "wgs"^^xsd:string ;
+    vann:preferredNamespaceUri "https://www.w3.org/2003/01/geo/wgs84_pos#"^^xsd:anyURI ;
+    voaf:usageInDataset wgs:_data_dataset_occ .
+
+geo: a voaf:Vocabulary ;
+    rdfs:label "The GeoSPARQL Ontology"@en ;
+    vann:preferredNamespacePrefix "geo"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"^^xsd:anyURI ;
+    voaf:usageInDataset geo:_data_dataset_occ .
+
+skos: a voaf:Vocabulary ;
+    rdfs:label "skos Vocabulary"@en ;
+    vann:preferredNamespacePrefix "skos"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
+    voaf:usageInDataset skos:_data_dataset_occ .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> a void:Dataset,
+        adms:Asset ;
+    rdfs:label "data_dataset"@en ;
+    vext:averageLiteralLength 66 ;
+    vext:averageObjectIRILength 66 ;
+    vext:averagePropertyIRILength 45 ;
+    vext:averageSubjectIRILength 84 ;
+    vext:datatypes 5 ;
+    vext:distinctBlankNodes 0 ;
+    vext:distinctIRIReferences 82 ;
+    vext:distinctLiterals 28 ;
+    vext:distinctRDFNodes 110 ;
+    vext:languages 1 ;
+    vext:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-02-28T00:00:55"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "data_dataset"@en ;
+    vann:preferredNamespacePrefix "data"^^xsd:string ;
+    vann:preferredNamespaceUri "http://Research-Squirrel-Engineers.io/3dannotation_example/"^^xsd:anyURI ;
+    void:classPartition <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_3DModel>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_Annotation>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_CartesianCS>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_Collection>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_CoordinateSystemAxis>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_GeometryCollection>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_OghamStone>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_Polygon>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_SpatialObjectCollection>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_WKTSelector> ;
+    void:classes 10 ;
+    void:dataDump <https://Research-Squirrel-Engineers.github.io/3dannotation_example/index.ttl> ;
+    void:distinctObjects 43 ;
+    void:distinctSubjects 19 ;
+    void:entities 18 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 20 ;
+    void:propertyPartition <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_3dmodel>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_abbreviation>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_asSVG>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_asWKT>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_axis>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_axisDirection>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_axisOrder>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_definition>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasBody>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasSelector>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasTarget>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasUnit>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_image>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_inSRS>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_label>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_type>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_value> ;
+    void:triples 95 ;
+    void:uriSpace "http://Research-Squirrel-Engineers.io/3dannotation_example/"^^xsd:string ;
+    void:vocabulary vext:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        voaf:,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        adms:,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://Research-Squirrel-Engineers.github.io/3dannotation_example> ;
+    foaf:homepage <https://Research-Squirrel-Engineers.github.io/3dannotation_example> ;
+    foaf:page <https://Research-Squirrel-Engineers.github.io/3dannotation_example/index.html> .
+
