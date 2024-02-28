@@ -47,7 +47,7 @@ data:Tullaherin_II_3dmodel_dt_anno_target rdfs:label "Annotation target of a cro
 data:Tullaherin_II_3dmodel_dt_anno_target oa:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/Tullaherin_II.obj"^^xsd:anyURI .
 data:Tullaherin_II_3dmodel_dt_anno_target oa:hasSelector data:Tullaherin_II_3dmodel_dt_anno_target_selector .
 data:Tullaherin_II_3dmodel_dt_anno_target_selector rdf:type sf:Polygon, oa:WKTSelector .
-data:Tullaherin_II_3dmodel_dt_anno_target_selector rdfs:label "Annotation target selector of a cross on I-KER-062.obj"@en .
+data:Tullaherin_II_3dmodel_dt_anno_target_selector rdfs:label "Annotation target selector of Ogham D[...]T (ᚇ[...]ᚈ) on Tullaherin_II.obj"@en .
 data:Tullaherin_II_3dmodel_dt_anno_target_selector skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
 data:Tullaherin_II_3dmodel_dt_anno_target_selector rdf:value "<http://localcoordinatesystem> POLYGON Z((1.029469 -4.003649 1.592225, 1.560513 -2.618507 1.592225, 1.029469 -2.618507 1.592225, 1.029469 -4.003649 0.240015, 1.560513 -4.003649 0.240015, 1.560513 -2.618507 0.240015, 1.029469 -2.618507 1.592225))"^^oa:wktLiteral .
 data:Tullaherin_II_3dmodel_dt_anno_target_selector geo:inSRS ont:cartesian_ax3_mm .
