@@ -132,7 +132,7 @@ var vowlresult={
      {
       "identifier": "http://xmlns.com/foaf/0.1/image",
       "language": "undefined",
-      "value": "https://Research-Squirrel-Engineers.io/3dannotation_example/model.obj",
+      "value": "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/model.obj",
       "type": "iri"
      }
     ]

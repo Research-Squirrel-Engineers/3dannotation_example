@@ -333,6 +333,10 @@ var tree={
             }
           },
           "from": {
+            "http://situx.github.io/proj4rdf/ont/crs/axis": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/crs/CartesianCS": 1
+            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1
@@ -403,8 +407,7 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 1,
-              "http://www.opengis.net/ont/sf#Polygon": 1,
-              "http://www.w3.org/ns/oa#WKTSelector": 1
+              "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone": 1
             }
           },
           "from": {}
