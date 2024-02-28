@@ -323,7 +323,7 @@ var tree={
             },
             "http://situx.github.io/proj4rdf/ont/crs/axis": {
               "instancecount": 3,
-              "http://www.opengis.net/ont/crs/CoordinateSystemAxis": 2
+              "http://www.opengis.net/ont/crs/CoordinateSystemAxis": 3
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -333,6 +333,11 @@ var tree={
             }
           },
           "from": {
+            "http://www.opengis.net/ont/geosparql#inSRS": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/sf#Polygon": 1,
+              "http://www.w3.org/ns/oa#WKTSelector": 1
+            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1
@@ -356,10 +361,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm_axis3",
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis3",
         "parent": "http://www.opengis.net/ont/crs/CoordinateSystemAxis",
         "type": "instance",
-        "text": "Cartesian coordinate system with 3 axis in millimetre units: Axis 3 (ont:cartesian_ax3_mm_axis3)",
+        "text": "Cartesian coordinate system with 3 axis in millimetre units: Axis 3 (data:cartesian_ax3_mm_axis3)",
         "data": {}
       },
       {
@@ -477,7 +482,7 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 3,
-              "http://www.opengis.net/ont/crs/CoordinateSystemAxis": 3
+              "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone": 3
             }
           },
           "from": {}

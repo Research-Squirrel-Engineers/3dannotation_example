@@ -496,7 +496,7 @@ var vowlresult={
      {
       "identifier": "http://www.opengis.net/ont/geosparql#inSRS",
       "language": "undefined",
-      "value": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm",
+      "value": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm",
       "type": "iri"
      }
     ]
@@ -752,8 +752,8 @@ var vowlresult={
   },
   {
    "id": 18,
-   "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm_axis3",
-   "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont",
+   "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis3",
+   "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
    "label": "Ogham Stone",
    "annotations": {

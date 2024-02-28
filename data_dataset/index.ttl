@@ -40,13 +40,13 @@
     ns1:averageSubjectIRILength 84 ;
     ns1:datatypes 5 ;
     ns1:distinctBlankNodes 0 ;
-    ns1:distinctIRIReferences 116 ;
+    ns1:distinctIRIReferences 117 ;
     ns1:distinctLiterals 41 ;
-    ns1:distinctRDFNodes 157 ;
+    ns1:distinctRDFNodes 158 ;
     ns1:languages 1 ;
     ns1:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-02-28T18:41:29"^^xsd:dateTime ;
+    dcterms:modified "2024-02-28T22:19:21"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -67,7 +67,7 @@
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_WKTSelector> ;
     void:classes 10 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/3dannotation_example/index.ttl> ;
-    void:distinctObjects 64 ;
+    void:distinctObjects 65 ;
     void:distinctSubjects 31 ;
     void:entities 30 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
