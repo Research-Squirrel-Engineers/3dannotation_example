@@ -1,0 +1,18 @@
+<!DOCTYPE MeshLabDocument>
+<MeshLabProject>
+ <MeshGroup>
+  <MLMesh visible="1" idInFile="-1" filename="I-KER-062.obj" label="I-KER-062.obj">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointColor="252 233 79 255" wireColor="64 64 64 255" wireWidth="1" pointSize="3" solidColor="192 192 192 255" boxColor="234 234 234 255">100001000000000000000100000001011101010010000000000100011011100000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh visible="1" idInFile="-1" filename="I-KER-062-cross.obj" label="I-KER-062-cross.obj">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption pointColor="252 233 79 255" wireColor="64 64 64 255" wireWidth="1" pointSize="3" solidColor="192 192 192 255" boxColor="234 234 234 255">000001000000000000000100000001001101010010000000000100011111100000001001</RenderingOption>
+  </MLMesh>
+ </MeshGroup>
+ <RasterGroup/>
+</MeshLabProject>
