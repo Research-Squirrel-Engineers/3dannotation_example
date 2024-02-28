@@ -8,7 +8,7 @@ var search={
   "Annotation body of \u1689 on CIIC 153": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_body",
   "Annotation of a cross on I-KER-062.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno",
   "Annotation of \u1689 on CIIC 153": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno",
-  "Annotation target of a cross on I-KER-062.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target",
+  "Annotation target of a cross on I-KER-062.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target",
   "Annotation target of \u1689 on CIIC 153": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target",
   "Annotation target selector of Ogham D[...]T (\u1687[...]\u1688) on Tullaherin_II.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector",
   "Annotation target selector of a cross on I-KER-062.obj": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector",

@@ -43,18 +43,18 @@ var minivowlresult={
  ],
  "links": [
   {
-   "source": 0,
-   "target": 1,
-   "valueTo": "3dmodel",
-   "propertyTo": "class",
-   "uriTo": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3dmodel"
-  },
-  {
    "source": 5,
    "target": 6,
    "valueTo": "axis",
    "propertyTo": "class",
    "uriTo": "http://situx.github.io/proj4rdf/ont/crs/axis"
+  },
+  {
+   "source": 0,
+   "target": 1,
+   "valueTo": "3dmodel",
+   "propertyTo": "class",
+   "uriTo": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3dmodel"
   }
  ]
 }
