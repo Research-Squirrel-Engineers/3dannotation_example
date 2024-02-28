@@ -7,5 +7,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "CartesianCS Instances Collection"@en ;
     void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
-    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm> .
+    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm> .
 

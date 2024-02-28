@@ -7,7 +7,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "CoordinateSystemAxis Instances Collection"@en ;
     void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
-    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm_axis1>,
-        <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm_axis2>,
+    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis1>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis2>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm_axis3> .
 

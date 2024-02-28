@@ -62,8 +62,8 @@ var tree={
             },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -97,8 +97,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -139,8 +139,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -194,12 +194,11 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.opengis.net/ont/geosparql#inSRS": {
-              "instancecount": 1,
-              "http://www.opengis.net/ont/crs/CartesianCS": 1
+              "instancecount": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 2
@@ -228,10 +227,10 @@ var tree={
         "instancecount": 7
       },
       {
-        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm",
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm",
         "parent": "http://www.opengis.net/ont/crs/CartesianCS",
         "type": "instance",
-        "text": "Cartesian coordinate system with 3 axis in millimetre units (ont:cartesian_ax3_mm)",
+        "text": "Cartesian coordinate system with 3 axis in millimetre units (data:cartesian_ax3_mm)",
         "data": {}
       },
       {
@@ -243,8 +242,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://situx.github.io/proj4rdf/ont/crs/asSVG": {
               "instancecount": 1
@@ -254,7 +253,7 @@ var tree={
             },
             "http://situx.github.io/proj4rdf/ont/crs/axis": {
               "instancecount": 3,
-              "http://www.opengis.net/ont/crs/CoordinateSystemAxis": 3
+              "http://www.opengis.net/ont/crs/CoordinateSystemAxis": 2
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -264,11 +263,6 @@ var tree={
             }
           },
           "from": {
-            "http://www.opengis.net/ont/geosparql#inSRS": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/sf#Polygon": 1,
-              "http://www.w3.org/ns/oa#WKTSelector": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1
@@ -278,17 +272,17 @@ var tree={
         "instancecount": 8
       },
       {
-        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm_axis1",
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis1",
         "parent": "http://www.opengis.net/ont/crs/CoordinateSystemAxis",
         "type": "instance",
-        "text": "Cartesian coordinate system with 3 axis in millimetre units: Axis 1 (ont:cartesian_ax3_mm_axis1)",
+        "text": "Cartesian coordinate system with 3 axis in millimetre units: Axis 1 (data:cartesian_ax3_mm_axis1)",
         "data": {}
       },
       {
-        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm_axis2",
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis2",
         "parent": "http://www.opengis.net/ont/crs/CoordinateSystemAxis",
         "type": "instance",
-        "text": "Cartesian coordinate system with 3 axis in millimetre units: Axis 2 (ont:cartesian_ax3_mm_axis2)",
+        "text": "Cartesian coordinate system with 3 axis in millimetre units: Axis 2 (data:cartesian_ax3_mm_axis2)",
         "data": {}
       },
       {
@@ -307,8 +301,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://situx.github.io/proj4rdf/ont/crs/abbreviation": {
               "instancecount": 1
@@ -339,10 +333,6 @@ var tree={
             }
           },
           "from": {
-            "http://situx.github.io/proj4rdf/ont/crs/axis": {
-              "instancecount": 0,
-              "http://www.opengis.net/ont/crs/CartesianCS": 1
-            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 1
@@ -402,8 +392,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -412,13 +402,14 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 3,
-              "http://www.opengis.net/ont/crs/CoordinateSystemAxis": 3
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Polygon": 1,
+              "http://www.w3.org/ns/oa#WKTSelector": 1
             }
           },
           "from": {}
         },
-        "instancecount": 7
+        "instancecount": 5
       },
       {
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Polygon_collection",
@@ -436,8 +427,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1

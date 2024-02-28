@@ -249,7 +249,7 @@ var vowlresult={
      {
       "identifier": "http://situx.github.io/proj4rdf/ont/crs/axis",
       "language": "undefined",
-      "value": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm_axis3",
+      "value": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis3",
       "type": "iri"
      }
     ]
@@ -261,8 +261,8 @@ var vowlresult={
   },
   {
    "id": 5,
-   "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm",
-   "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont",
+   "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm",
+   "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
    "label": "Cartesian coordinate system with 3 axis in millimetre units: Axis 1",
    "annotations": {
@@ -330,8 +330,8 @@ var vowlresult={
   },
   {
    "id": 6,
-   "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm_axis1",
-   "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont",
+   "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis1",
+   "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
    "label": "Cartesian coordinate system with 3 axis in millimetre units: Axis 2",
    "annotations": {
@@ -399,8 +399,8 @@ var vowlresult={
   },
   {
    "id": 7,
-   "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm_axis2",
-   "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont",
+   "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis2",
+   "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
    "label": "Cartesian coordinate system with 3 axis in millimetre units: Axis 3",
    "annotations": {

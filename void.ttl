@@ -572,7 +572,7 @@ skos: a voaf:Vocabulary ;
     vext:averageLiteralLength 66 ;
     vext:averageObjectIRILength 66 ;
     vext:averagePropertyIRILength 44 ;
-    vext:averageSubjectIRILength 84 ;
+    vext:averageSubjectIRILength 83 ;
     vext:datatypes 5 ;
     vext:distinctBlankNodes 0 ;
     vext:distinctIRIReferences 83 ;
@@ -581,7 +581,7 @@ skos: a voaf:Vocabulary ;
     vext:languages 1 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-02-28T00:07:25"^^xsd:dateTime ;
+    dcterms:modified "2024-02-28T00:10:23"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
