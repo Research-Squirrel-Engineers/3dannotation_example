@@ -29,7 +29,7 @@ data:ogham_stone_3dmodel_crossanno_target oa:hasSelector data:ogham_stone_3dmode
 data:ogham_stone_3dmodel_crossanno_target_selector rdf:type sf:Polygon, oa:WKTSelector .
 data:ogham_stone_3dmodel_crossanno_target_selector rdfs:label "Annotation target selector of a cross on I-KER-062.obj"@en .
 data:ogham_stone_3dmodel_crossanno_target_selector skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
-data:ogham_stone_3dmodel_crossanno_target_selector rdf:value "<http://localcoordinatesystem> POLYGON Z((-0.170012 -0.278254 0.421926, -0.13942 0.3783338 0.421926, -0.170012 0.3783338 0.421926, -0.170012 -0.278254 -0.302014, -0.13942 -0.278254 -0.302014, -0.13942 0.3783338 -0.302014, -0.170012 0.3783338 -0.302014))"^^oa:wktLiteral .
+data:ogham_stone_3dmodel_crossanno_target_selector rdf:value "<http://localcoordinatesystem> POLYGON Z((-0.370012 -0.578254 0.421926, -0.13942 0.0783338 0.421926, -0.370012 0.0783338 0.421926, -0.370012 -0.578254 -0.302014, -0.13942 -0.578254 -0.302014, -0.13942 0.0783338 -0.302014, -0.370012 0.0783338 -0.302014))"^^oa:wktLiteral .
 data:ogham_stone_3dmodel_crossanno_target_selector geo:inSRS ont:cartesian_ax3_mm .
 
 
