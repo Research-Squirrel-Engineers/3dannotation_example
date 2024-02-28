@@ -52,6 +52,26 @@ data:Tullaherin_II_3dmodel_dt_anno_target_selector skos:definition "The annotati
 data:Tullaherin_II_3dmodel_dt_anno_target_selector rdf:value "<http://localcoordinatesystem> POLYGON Z((1.029469 -4.003649 1.592225, 1.560513 -2.618507 1.592225, 1.029469 -2.618507 1.592225, 1.029469 -4.003649 0.240015, 1.560513 -4.003649 0.240015, 1.560513 -2.618507 0.240015, 1.029469 -2.618507 1.592225))"^^oa:wktLiteral .
 data:Tullaherin_II_3dmodel_dt_anno_target_selector geo:inSRS ont:cartesian_ax3_mm .
 
+data:CIIC_153 rdf:type ont:OghamStone .
+data:CIIC_153 rdfs:label "CIIC 153"@en .
+data:CIIC_153 ont:3dmodel data:CIIC_153_3dmodel .
+data:CIIC_153_3dmodel rdf:type ont:3DModel .
+data:CIIC_153_3dmodel rdfs:label "3D Model of CIIC 153"@en .
+data:CIIC_153_3dmodel foaf:image "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC_153.obj"^^xsd:anyURI .
+
+data:CIIC_153_3dmodel_c1_anno rdf:type oa:Annotation .
+data:CIIC_153_3dmodel_c1_anno rdfs:label "Annotation of ᚉ on CIIC 153"@en .
+data:CIIC_153_3dmodel_c1_anno oa:hasBody data:CIIC_153_3dmodel_c1_anno_body .
+data:CIIC_153_3dmodel_c1_anno_body rdfs:label "Annotation body of ᚉ on CIIC 153"@en .
+data:CIIC_153_3dmodel_c1_anno oa:hasTarget data:CIIC_153_3dmodel_c1_anno_target .
+data:CIIC_153_3dmodel_c1_anno_target rdfs:label "Annotation target of ᚉ on CIIC 153" .
+data:CIIC_153_3dmodel_c1_anno_target oa:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC_153.obj"^^xsd:anyURI .
+data:CIIC_153_3dmodel_c1_anno_target oa:hasSelector data:CIIC_153_3dmodel_c1_anno_target_selector .
+data:CIIC_153_3dmodel_c1_anno_target_selector rdf:type sf:Polygon, oa:WKTSelector .
+data:CIIC_153_3dmodel_c1_anno_target_selector rdfs:label "Annotation target selector of ᚉ on CIIC 153"@en .
+data:CIIC_153_3dmodel_c1_anno_target_selector skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
+data:CIIC_153_3dmodel_c1_anno_target_selector rdf:value "<http://localcoordinatesystem> POLYGON Z((1.430254 0.446976 0.634666, 2.016316 0.667597 0.634666, 1.430254 0.667597 0.634666, 1.430254 0.446976 0.010635, 2.016316 0.446976 0.010635, 2.016316 0.667597 1.430254, 1.430254 0.667597 0.010635))"^^oa:wktLiteral .
+data:CIIC_153_3dmodel_c1_anno_target_selector geo:inSRS ont:cartesian_ax3_mm .
 
 data:cartesian_ax3_mm a geocrs:CartesianCS ;
     rdfs:label "Cartesian coordinate system with 3 axis in millimetre units"@en ;
