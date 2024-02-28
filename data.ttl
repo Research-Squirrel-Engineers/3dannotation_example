@@ -17,14 +17,14 @@ data:ogham_stone rdfs:label "Ogham Stone"@en .
 data:ogham_stone ont:3dmodel data:ogham_stone_3dmodel .
 data:ogham_stone_3dmodel rdf:type ont:3DModel .
 data:ogham_stone_3dmodel rdfs:label "3D Model of Ogham Stone"@en .
-data:ogham_stone_3dmodel foaf:image "https://Research-Squirrel-Engineers.io/3dannotation_example/model.obj"^^xsd:anyURI .
+data:ogham_stone_3dmodel foaf:image "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/model.obj"^^xsd:anyURI .
 data:ogham_stone_3dmodel_crossanno rdf:type oa:Annotation .
 data:ogham_stone_3dmodel_crossanno rdfs:label "Annotation of a cross on model.obj"@en .
 data:ogham_stone_3dmodel_crossanno oa:hasBody data:ogham_stone_3dmodel_crossanno_body1 .
 data:ogham_stone_3dmodel_crossanno_body1 rdfs:label "Annotation body  of a cross on model.obj"@en .
 data:ogham_stone_3dmodel_crossanno oa:hasTarget data:ogham_stone_3dmodel_crossanno_target .
 data:ogham_stone_3dmodel_crossanno_target rdfs:label "Annotation target of a cross on model.obj" .
-data:ogham_stone_3dmodel_crossanno_target oa:hasSource "https://Research-Squirrel-Engineers.io/3dannotation_example/model.obj"^^xsd:anyURI .
+data:ogham_stone_3dmodel_crossanno_target oa:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/model.obj"^^xsd:anyURI .
 data:ogham_stone_3dmodel_crossanno_target oa:hasSelector data:ogham_stone_3dmodel_crossanno_target_selector .
 data:ogham_stone_3dmodel_crossanno_target_selector rdf:type sf:Polygon, oa:WKTSelector .
 data:ogham_stone_3dmodel_crossanno_target_selector rdfs:label "Annotation target selector of a cross on model.obj"@en .
