@@ -8,7 +8,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <http://www.w3.org/ns/oa#WKTSelector>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Annotation target selector of Ogham D[...]T (ᚇ[...]ᚈ) on Tullaherin_II.obj"@en ;
+    rdfs:label "Annotation target selector of Ogham D[...]T (ᚇ[...]ᚈ) on Tullaherin II"@en ;
     void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
     geo:inSRS <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#cartesian_ax3_mm> ;
     rdf:value "<http://localcoordinatesystem> POLYGON Z((1.029469 -4.003649 1.592225, 1.560513 -2.618507 1.592225, 1.029469 -2.618507 1.592225, 1.029469 -4.003649 0.240015, 1.560513 -4.003649 0.240015, 1.560513 -2.618507 0.240015, 1.029469 -2.618507 1.592225))"^^<http://www.w3.org/ns/oa#wktLiteral> ;

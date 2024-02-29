@@ -53,7 +53,7 @@ var tree={
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II",
         "parent": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone",
         "type": "instance",
-        "text": "Tullaherin_II (data:Tullaherin_II)",
+        "text": "Tullaherin II (data:Tullaherin_II)",
         "data": {}
       },
       {
@@ -106,7 +106,7 @@ var tree={
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel",
         "parent": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3DModel",
         "type": "instance",
-        "text": "3D Model of Tullaherin_II (data:Tullaherin_II_3dmodel)",
+        "text": "3D Model of Tullaherin II (data:Tullaherin_II_3dmodel)",
         "data": {}
       },
       {
@@ -162,7 +162,7 @@ var tree={
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno",
         "parent": "http://www.w3.org/ns/oa#Annotation",
         "type": "instance",
-        "text": "Annotation of a cross on I-KER-062.obj (data:Tullaherin_II_3dmodel_dt_anno)",
+        "text": "Annotation of a cross on Tullaherin_II (data:Tullaherin_II_3dmodel_dt_anno)",
         "data": {}
       },
       {
@@ -173,10 +173,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno",
+        "parent": "http://www.w3.org/ns/oa#Annotation",
+        "type": "instance",
+        "text": "Annotation of \u1689 on CIIC 153 (data:CIIC_153_3dmodel_c2_anno)",
+        "data": {}
+      },
+      {
         "id": "http://www.w3.org/ns/oa#Annotation",
         "parent": "#",
         "type": "class",
-        "text": "Annotation (oa:Annotation) [3]",
+        "text": "Annotation (oa:Annotation) [4]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -217,7 +224,7 @@ var tree={
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector_suniv0_",
         "parent": "http://www.opengis.net/ont/sf#Polygon",
         "type": "instance",
-        "text": "Annotation target selector of Ogham D[...]T (\u1687[...]\u1688) on Tullaherin_II.obj (data:Tullaherin_II_3dmodel_dt_anno_target_selector)",
+        "text": "Annotation target selector of Ogham D[...]T (\u1687[...]\u1688) on Tullaherin II (data:Tullaherin_II_3dmodel_dt_anno_target_selector)",
         "data": {}
       },
       {
@@ -228,10 +235,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno_target_selector_suniv0_",
+        "parent": "http://www.opengis.net/ont/sf#Polygon",
+        "type": "instance",
+        "text": "Annotation target selector of \u1689 on CIIC 153 (data:CIIC_153_3dmodel_c2_anno_target_selector)",
+        "data": {}
+      },
+      {
         "id": "http://www.opengis.net/ont/sf#Polygon",
         "parent": "#",
         "type": "class",
-        "text": "Polygon (sf:Polygon) [3]",
+        "text": "Polygon (sf:Polygon) [4]",
         "data": {}
       },
       {
@@ -245,7 +259,7 @@ var tree={
         "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector_suniv1_",
         "parent": "http://www.w3.org/ns/oa#WKTSelector",
         "type": "instance",
-        "text": "Annotation target selector of Ogham D[...]T (\u1687[...]\u1688) on Tullaherin_II.obj (data:Tullaherin_II_3dmodel_dt_anno_target_selector)",
+        "text": "Annotation target selector of Ogham D[...]T (\u1687[...]\u1688) on Tullaherin II (data:Tullaherin_II_3dmodel_dt_anno_target_selector)",
         "data": {}
       },
       {
@@ -256,10 +270,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno_target_selector_suniv1_",
+        "parent": "http://www.w3.org/ns/oa#WKTSelector",
+        "type": "instance",
+        "text": "Annotation target selector of \u1689 on CIIC 153 (data:CIIC_153_3dmodel_c2_anno_target_selector)",
+        "data": {}
+      },
+      {
         "id": "http://www.w3.org/ns/oa#WKTSelector",
         "parent": "#",
         "type": "class",
-        "text": "WKTSelector (oa:WKTSelector) [3]",
+        "text": "WKTSelector (oa:WKTSelector) [4]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -335,8 +356,8 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#inSRS": {
               "instancecount": 0,
-              "http://www.opengis.net/ont/sf#Polygon": 1,
-              "http://www.w3.org/ns/oa#WKTSelector": 1
+              "http://www.opengis.net/ont/sf#Polygon": 2,
+              "http://www.w3.org/ns/oa#WKTSelector": 2
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -482,7 +503,7 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 3,
-              "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone": 3
+              "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3DModel": 3
             }
           },
           "from": {}
@@ -515,14 +536,14 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 3,
-              "http://www.opengis.net/ont/sf#Polygon": 3,
-              "http://www.w3.org/ns/oa#WKTSelector": 3
+              "instancecount": 4,
+              "http://www.opengis.net/ont/sf#Polygon": 4,
+              "http://www.w3.org/ns/oa#WKTSelector": 4
             }
           },
           "from": {}
         },
-        "instancecount": 7
+        "instancecount": 8
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",

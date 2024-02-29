@@ -8,5 +8,5 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: inSRS"@en ;
     void:property geo:inSRS ;
-    void:triples 3 .
+    void:triples 4 .
 

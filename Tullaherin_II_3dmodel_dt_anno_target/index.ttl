@@ -5,7 +5,7 @@
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target> a <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Annotation target of a cross on I-KER-062.obj" ;
+    rdfs:label "Annotation target of ogham signs on Tullaherin_II" ;
     void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
     ns1:hasSelector <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector> ;
     ns1:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/Tullaherin_II.obj"^^xsd:anyURI .

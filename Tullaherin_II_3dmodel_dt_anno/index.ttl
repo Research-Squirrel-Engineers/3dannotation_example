@@ -5,7 +5,7 @@
 <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno> a <http://www.w3.org/ns/ldp#Resource>,
         ns1:Annotation,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Annotation of a cross on I-KER-062.obj"@en ;
+    rdfs:label "Annotation of a cross on Tullaherin_II"@en ;
     void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
     ns1:hasBody <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_body1> ;
     ns1:hasTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target> .

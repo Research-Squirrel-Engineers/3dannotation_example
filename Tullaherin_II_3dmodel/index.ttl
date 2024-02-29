@@ -6,7 +6,7 @@
 <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel> a <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3DModel>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "3D Model of Tullaherin_II"@en ;
+    rdfs:label "3D Model of Tullaherin II"@en ;
     void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
     foaf:image "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/Tullaherin_II.obj"^^xsd:anyURI .
 

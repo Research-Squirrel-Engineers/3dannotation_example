@@ -10,5 +10,5 @@
     void:linkPredicate rdf:type ;
     void:objectsTarget <http://www.opengis.net/ont/sf#> ;
     void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
-    void:triples 3 .
+    void:triples 4 .
 

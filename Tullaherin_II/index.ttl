@@ -5,7 +5,7 @@
 <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II> a ns1:OghamStone,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Tullaherin_II"@en ;
+    rdfs:label "Tullaherin II"@en ;
     ns1:3dmodel <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel> ;
     void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
 

@@ -78,7 +78,7 @@
     void:linkPredicate rdf:type ;
     void:objectsTarget <http://www.opengis.net/ont/sf#> ;
     void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
-    void:triples 3 .
+    void:triples 4 .
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_www.w3.org_2004_02_skos_core_> a void:Linkset ;
     rdfs:label "Linkset: data_dataset - skos:"@en ;
@@ -92,7 +92,7 @@
     void:linkPredicate rdf:type ;
     void:objectsTarget <http://www.w3.org/ns/oa#> ;
     void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
-    void:triples 6 .
+    void:triples 8 .
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/dc_data_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/dc/elements/1.1/ in data_dataset" ;
@@ -230,7 +230,7 @@
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_Annotation> a void:Dataset ;
     rdfs:label "Class Partition: Annotation"@en ;
     void:class <http://www.w3.org/ns/oa#Annotation> ;
-    void:entities 3 .
+    void:entities 4 .
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_CartesianCS> a void:Dataset ;
     rdfs:label "Class Partition: CartesianCS"@en ;
@@ -260,7 +260,7 @@
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_Polygon> a void:Dataset ;
     rdfs:label "Class Partition: Polygon"@en ;
     void:class <http://www.opengis.net/ont/sf#Polygon> ;
-    void:entities 3 .
+    void:entities 4 .
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_SpatialObjectCollection> a void:Dataset ;
     rdfs:label "Class Partition: SpatialObjectCollection"@en ;
@@ -269,7 +269,7 @@
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_WKTSelector> a void:Dataset ;
     rdfs:label "Class Partition: WKTSelector"@en ;
     void:class <http://www.w3.org/ns/oa#WKTSelector> ;
-    void:entities 3 .
+    void:entities 4 .
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_abbreviation> a void:Dataset ;
     rdfs:label "Property Partition: abbreviation"@en ;
@@ -307,7 +307,7 @@
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_definition> a void:Dataset ;
     rdfs:label "Property Partition: definition"@en ;
     void:property skos:definition ;
-    void:triples 3 .
+    void:triples 4 .
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_dist_ttl> a adms:AssetDistribution ;
     rdfs:label "data_dataset TTL Distribution"@en ;
@@ -317,22 +317,22 @@
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasBody> a void:Dataset ;
     rdfs:label "Property Partition: hasBody"@en ;
     void:property <http://www.w3.org/ns/oa#hasBody> ;
-    void:triples 3 .
+    void:triples 4 .
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasSelector> a void:Dataset ;
     rdfs:label "Property Partition: hasSelector"@en ;
     void:property <http://www.w3.org/ns/oa#hasSelector> ;
-    void:triples 3 .
+    void:triples 4 .
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasSource> a void:Dataset ;
     rdfs:label "Property Partition: hasSource"@en ;
     void:property <http://www.w3.org/ns/oa#hasSource> ;
-    void:triples 3 .
+    void:triples 4 .
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasTarget> a void:Dataset ;
     rdfs:label "Property Partition: hasTarget"@en ;
     void:property <http://www.w3.org/ns/oa#hasTarget> ;
-    void:triples 3 .
+    void:triples 4 .
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasUnit> a void:Dataset ;
     rdfs:label "Property Partition: hasUnit"@en ;
@@ -347,22 +347,22 @@
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_inSRS> a void:Dataset ;
     rdfs:label "Property Partition: inSRS"@en ;
     void:property geo:inSRS ;
-    void:triples 3 .
+    void:triples 4 .
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_label> a void:Dataset ;
     rdfs:label "Property Partition: label"@en ;
     void:property rdfs:label ;
-    void:triples 22 .
+    void:triples 26 .
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_type> a void:Dataset ;
     rdfs:label "Property Partition: type"@en ;
     void:property rdf:type ;
-    void:triples 19 .
+    void:triples 22 .
 
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_value> a void:Dataset ;
     rdfs:label "Property Partition: value"@en ;
     void:property rdf:value ;
-    void:triples 3 .
+    void:triples 4 .
 
 <http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
 
@@ -569,19 +569,19 @@ skos: a voaf:Vocabulary ;
 <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> a void:Dataset,
         adms:Asset ;
     rdfs:label "data_dataset"@en ;
-    vext:averageLiteralLength 75 ;
+    vext:averageLiteralLength 78 ;
     vext:averageObjectIRILength 69 ;
     vext:averagePropertyIRILength 44 ;
-    vext:averageSubjectIRILength 84 ;
+    vext:averageSubjectIRILength 85 ;
     vext:datatypes 5 ;
     vext:distinctBlankNodes 0 ;
-    vext:distinctIRIReferences 117 ;
-    vext:distinctLiterals 41 ;
-    vext:distinctRDFNodes 158 ;
+    vext:distinctIRIReferences 128 ;
+    vext:distinctLiterals 45 ;
+    vext:distinctRDFNodes 173 ;
     vext:languages 1 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-02-28T22:19:21"^^xsd:dateTime ;
+    dcterms:modified "2024-02-29T10:49:51"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -602,9 +602,9 @@ skos: a voaf:Vocabulary ;
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_WKTSelector> ;
     void:classes 10 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/3dannotation_example/index.ttl> ;
-    void:distinctObjects 65 ;
-    void:distinctSubjects 31 ;
-    void:entities 30 ;
+    void:distinctObjects 72 ;
+    void:distinctSubjects 35 ;
+    void:entities 34 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 21 ;
@@ -626,7 +626,7 @@ skos: a voaf:Vocabulary ;
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_label>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_type>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_value> ;
-    void:triples 158 ;
+    void:triples 179 ;
     void:uriSpace "http://Research-Squirrel-Engineers.io/3dannotation_example/"^^xsd:string ;
     void:vocabulary vext:,
         dcam:,

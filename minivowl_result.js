@@ -43,13 +43,6 @@ var minivowlresult={
  ],
  "links": [
   {
-   "source": 5,
-   "target": 6,
-   "valueTo": "axis",
-   "propertyTo": "class",
-   "uriTo": "http://situx.github.io/proj4rdf/ont/crs/axis"
-  },
-  {
    "source": 3,
    "target": 5,
    "valueTo": "inSRS",
@@ -62,6 +55,13 @@ var minivowlresult={
    "valueTo": "inSRS",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#inSRS"
+  },
+  {
+   "source": 5,
+   "target": 6,
+   "valueTo": "axis",
+   "propertyTo": "class",
+   "uriTo": "http://situx.github.io/proj4rdf/ont/crs/axis"
   },
   {
    "source": 0,

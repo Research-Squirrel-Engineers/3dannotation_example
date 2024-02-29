@@ -34,19 +34,19 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "data_dataset"@en ;
-    ns1:averageLiteralLength 75 ;
+    ns1:averageLiteralLength 78 ;
     ns1:averageObjectIRILength 69 ;
     ns1:averagePropertyIRILength 44 ;
-    ns1:averageSubjectIRILength 84 ;
+    ns1:averageSubjectIRILength 85 ;
     ns1:datatypes 5 ;
     ns1:distinctBlankNodes 0 ;
-    ns1:distinctIRIReferences 117 ;
-    ns1:distinctLiterals 41 ;
-    ns1:distinctRDFNodes 158 ;
+    ns1:distinctIRIReferences 128 ;
+    ns1:distinctLiterals 45 ;
+    ns1:distinctRDFNodes 173 ;
     ns1:languages 1 ;
     ns1:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-02-28T22:19:21"^^xsd:dateTime ;
+    dcterms:modified "2024-02-29T10:49:51"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -67,9 +67,9 @@
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_WKTSelector> ;
     void:classes 10 ;
     void:dataDump <https://Research-Squirrel-Engineers.github.io/3dannotation_example/index.ttl> ;
-    void:distinctObjects 65 ;
-    void:distinctSubjects 31 ;
-    void:entities 30 ;
+    void:distinctObjects 72 ;
+    void:distinctSubjects 35 ;
+    void:entities 34 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 21 ;
@@ -91,7 +91,7 @@
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_label>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_type>,
         <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_value> ;
-    void:triples 158 ;
+    void:triples 179 ;
     void:uriSpace "http://Research-Squirrel-Engineers.io/3dannotation_example/"^^xsd:string ;
     void:vocabulary ns1:,
         dcam:,
