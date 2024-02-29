@@ -33,21 +33,21 @@ data:ogham_stone_3dmodel_crossanno_target_selector rdf:value "<http://localcoord
 data:ogham_stone_3dmodel_crossanno_target_selector geo:inSRS ont:cartesian_ax3_mm .
 
 data:Tullaherin_II rdf:type ont:OghamStone .
-data:Tullaherin_II rdfs:label "Tullaherin_II"@en .
+data:Tullaherin_II rdfs:label "Tullaherin II"@en .
 data:Tullaherin_II ont:3dmodel data:Tullaherin_II_3dmodel .
 data:Tullaherin_II_3dmodel rdf:type ont:3DModel .
-data:Tullaherin_II_3dmodel rdfs:label "3D Model of Tullaherin_II"@en .
+data:Tullaherin_II_3dmodel rdfs:label "3D Model of Tullaherin II"@en .
 data:Tullaherin_II_3dmodel foaf:image "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/Tullaherin_II.obj"^^xsd:anyURI .
 data:Tullaherin_II_3dmodel_dt_anno rdf:type oa:Annotation .
-data:Tullaherin_II_3dmodel_dt_anno rdfs:label "Annotation of a cross on I-KER-062.obj"@en .
+data:Tullaherin_II_3dmodel_dt_anno rdfs:label "Annotation of a cross on Tullaherin_II"@en .
 data:Tullaherin_II_3dmodel_dt_anno oa:hasBody data:Tullaherin_II_3dmodel_dt_anno_body1 .
-data:Tullaherin_II_3dmodel_dt_anno_body1 rdfs:label "Annotation body  of a cross on I-KER-062.obj"@en .
+data:Tullaherin_II_3dmodel_dt_anno_body1 rdfs:label "Annotation body  of a cross on Tullaherin_II"@en .
 data:Tullaherin_II_3dmodel_dt_anno oa:hasTarget data:Tullaherin_II_3dmodel_dt_anno_target .
-data:Tullaherin_II_3dmodel_dt_anno_target rdfs:label "Annotation target of a cross on I-KER-062.obj" .
+data:Tullaherin_II_3dmodel_dt_anno_target rdfs:label "Annotation target of ogham signs on Tullaherin_II" .
 data:Tullaherin_II_3dmodel_dt_anno_target oa:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/Tullaherin_II.obj"^^xsd:anyURI .
 data:Tullaherin_II_3dmodel_dt_anno_target oa:hasSelector data:Tullaherin_II_3dmodel_dt_anno_target_selector .
 data:Tullaherin_II_3dmodel_dt_anno_target_selector rdf:type sf:Polygon, oa:WKTSelector .
-data:Tullaherin_II_3dmodel_dt_anno_target_selector rdfs:label "Annotation target selector of Ogham D[...]T (ᚇ[...]ᚈ) on Tullaherin_II.obj"@en .
+data:Tullaherin_II_3dmodel_dt_anno_target_selector rdfs:label "Annotation target selector of Ogham D[...]T (ᚇ[...]ᚈ) on Tullaherin II"@en .
 data:Tullaherin_II_3dmodel_dt_anno_target_selector skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
 data:Tullaherin_II_3dmodel_dt_anno_target_selector rdf:value "<http://localcoordinatesystem> POLYGON Z((1.029469 -4.003649 1.592225, 1.560513 -2.618507 1.592225, 1.029469 -2.618507 1.592225, 1.029469 -4.003649 0.240015, 1.560513 -4.003649 0.240015, 1.560513 -2.618507 0.240015, 1.029469 -2.618507 1.592225))"^^oa:wktLiteral .
 data:Tullaherin_II_3dmodel_dt_anno_target_selector geo:inSRS ont:cartesian_ax3_mm .
@@ -72,6 +72,20 @@ data:CIIC_153_3dmodel_c1_anno_target_selector rdfs:label "Annotation target sele
 data:CIIC_153_3dmodel_c1_anno_target_selector skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
 data:CIIC_153_3dmodel_c1_anno_target_selector rdf:value "<http://localcoordinatesystem> POLYGON Z((1.430254 0.446976 0.634666, 2.016316 0.667597 0.634666, 1.430254 0.667597 0.634666, 1.430254 0.446976 0.010635, 2.016316 0.446976 0.010635, 2.016316 0.667597 1.430254, 1.430254 0.667597 0.010635))"^^oa:wktLiteral .
 data:CIIC_153_3dmodel_c1_anno_target_selector geo:inSRS data:cartesian_ax3_mm .
+
+data:CIIC_153_3dmodel_c2_anno rdf:type oa:Annotation .
+data:CIIC_153_3dmodel_c2_anno rdfs:label "Annotation of ᚉ on CIIC 153"@en .
+data:CIIC_153_3dmodel_c2_anno oa:hasBody data:CIIC_153_3dmodel_c2_anno_body .
+data:CIIC_153_3dmodel_c2_anno_body rdfs:label "Annotation body of ᚉ on CIIC 153"@en .
+data:CIIC_153_3dmodel_c2_anno oa:hasTarget data:CIIC_153_3dmodel_c2_anno_target .
+data:CIIC_153_3dmodel_c2_anno_target rdfs:label "Annotation target of ᚉ on CIIC 153" .
+data:CIIC_153_3dmodel_c2_anno_target oa:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC153.obj"^^xsd:anyURI .
+data:CIIC_153_3dmodel_c2_anno_target oa:hasSelector data:CIIC_153_3dmodel_c2_anno_target_selector .
+data:CIIC_153_3dmodel_c2_anno_target_selector rdf:type sf:Polygon, oa:WKTSelector .
+data:CIIC_153_3dmodel_c2_anno_target_selector rdfs:label "Annotation target selector of ᚉ on CIIC 153"@en .
+data:CIIC_153_3dmodel_c2_anno_target_selector skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
+data:CIIC_153_3dmodel_c2_anno_target_selector rdf:value "<http://localcoordinatesystem> POLYGON Z((1.037055 0.454591 0.524368, 1.462202 0.670359 0.524368, 1.037055 0.670359 0.524368, 1.037055 0.454591 -0.030830, 1.462202 0.454591 -0.030830, 1.462202 0.670359 -0.030830, 1.037055 0.670359 -0.030830))"^^oa:wktLiteral .
+data:CIIC_153_3dmodel_c2_anno_target_selector geo:inSRS data:cartesian_ax3_mm .
 
 data:cartesian_ax3_mm a geocrs:CartesianCS ;
     rdfs:label "Cartesian coordinate system with 3 axis in millimetre units"@en ;

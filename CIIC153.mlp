@@ -1,0 +1,30 @@
+<!DOCTYPE MeshLabDocument>
+<MeshLabProject>
+ <MeshGroup>
+  <MLMesh idInFile="-1" visible="1" filename="C-1.ply" label="C-1.dae">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" boxColor="234 234 234 255" pointSize="3" solidColor="192 192 192 255" wireWidth="1" pointColor="252 233 79 255">000001010000000000000100000001001110010010100000000100111110100000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh idInFile="-1" visible="1" filename="C-2.ply" label="C-3.dae">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" boxColor="234 234 234 255" pointSize="3" solidColor="192 192 192 255" wireWidth="1" pointColor="252 233 79 255">000001010000000000000100000001001110010010100000000100111110100000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh idInFile="-1" visible="1" filename="I-3.ply" label="I-3.dae">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" boxColor="234 234 234 255" pointSize="3" solidColor="192 192 192 255" wireWidth="1" pointColor="252 233 79 255">000001010000000000000100000001001110010010100000000100111110100000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh idInFile="-1" visible="1" filename="CIIC153.obj" label="CIIC153.obj">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" boxColor="234 234 234 255" pointSize="3" solidColor="192 192 192 255" wireWidth="1" pointColor="252 233 79 255">100001010000000000000100000001010110010010000000000100011010100000001001</RenderingOption>
+  </MLMesh>
+ </MeshGroup>
+ <RasterGroup/>
+</MeshLabProject>
