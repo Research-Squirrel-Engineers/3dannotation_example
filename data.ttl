@@ -87,6 +87,20 @@ data:CIIC_153_3dmodel_c2_anno_target_selector skos:definition "The annotation ta
 data:CIIC_153_3dmodel_c2_anno_target_selector rdf:value "<http://localcoordinatesystem> POLYGON Z((1.037055 0.454591 0.524368, 1.462202 0.670359 0.524368, 1.037055 0.670359 0.524368, 1.037055 0.454591 -0.030830, 1.462202 0.454591 -0.030830, 1.462202 0.670359 -0.030830, 1.037055 0.670359 -0.030830))"^^oa:wktLiteral .
 data:CIIC_153_3dmodel_c2_anno_target_selector geo:inSRS data:cartesian_ax3_mm .
 
+data:CIIC_153_3dmodel_i3_anno rdf:type oa:Annotation .
+data:CIIC_153_3dmodel_i3_anno rdfs:label "Annotation of ᚔ on CIIC 153"@en .
+data:CIIC_153_3dmodel_i3_anno oa:hasBody data:CIIC_153_3dmodel_i3_anno_body .
+data:CIIC_153_3dmodel_i3_anno_body rdfs:label "Annotation body of ᚔ on CIIC 153"@en .
+data:CIIC_153_3dmodel_i3_anno oa:hasTarget data:CIIC_153_3dmodel_i3_anno_target .
+data:CIIC_153_3dmodel_i3_anno_target rdfs:label "Annotation target of ᚔ on CIIC 153" .
+data:CIIC_153_3dmodel_i3_anno_target oa:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC153.obj"^^xsd:anyURI .
+data:CIIC_153_3dmodel_i3_anno_target oa:hasSelector data:CIIC_153_3dmodel_i3_anno_target_selector .
+data:CIIC_153_3dmodel_i3_anno_target_selector rdf:type sf:Polygon, oa:WKTSelector .
+data:CIIC_153_3dmodel_i3_anno_target_selector rdfs:label "Annotation target selector of ᚔ on CIIC 153"@en .
+data:CIIC_153_3dmodel_i3_anno_target_selector skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
+data:CIIC_153_3dmodel_i3_anno_target_selector rdf:value "<http://localcoordinatesystem> POLYGON Z((0.559329 0.595252 0.083825, 1.142592 0.670718 0.083825, 0.559329 0.670718 0.083825, 0.559329 0.595252 -0.263129, 1.142592 0.595252 -0.263129, 1.142592 0.670718 -0.263129, 0.559329 0.670718 -0.263129))"^^oa:wktLiteral .
+data:CIIC_153_3dmodel_i3_anno_target_selector geo:inSRS data:cartesian_ax3_mm .
+
 data:cartesian_ax3_mm a geocrs:CartesianCS ;
     rdfs:label "Cartesian coordinate system with 3 axis in millimetre units"@en ;
     geopesg:asSVG "<svg width='400' height='250' viewbox='0 0 375 220'><defs><marker id='arrowhead' markerWidth='10' markerHeight='7' refX='0' refY='2' orient='auto'><polygon points='0 0, 4 2, 0 4' /></marker></defs><line x1='20' y1='200' x2='200' y2='200' stroke='red' stroke-width='5' marker-end='url(#arrowhead)'></line><text x='110' y='220' class='small'>X: Cartesian X Axis (om:millimetre)</text><line x1='20' y1='200' x2='20' y2='20' stroke='green' stroke-width='5' marker-end='url(#arrowhead)'></line><text x='35' y='20' class='small'>Y: Cartesian Y Axis (om:millimetre)</text><line x1='20' y1='200' x2='190' y2='30' stroke='blue' stroke-width='5' marker-end='url(#arrowhead)'></line><text x='210' y='25' class='small'>Z: Cartesian Z Axis (om:millimetre)</text></svg>"^^geopesg:svgLiteral ;
