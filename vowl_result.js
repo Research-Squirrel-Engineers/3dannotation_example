@@ -125,7 +125,7 @@ var vowlresult={
   },
   {
    "id": 10,
-   "type": "http://www.opengis.net/ont/sf#Polygon"
+   "type": "http://www.w3.org/ns/oa#Annotation"
   },
   {
    "id": 11,
@@ -157,18 +157,30 @@ var vowlresult={
   },
   {
    "id": 18,
-   "type": "http://www.opengis.net/ont/crs/CartesianCS"
+   "type": "http://www.opengis.net/ont/sf#Polygon"
   },
   {
    "id": 19,
-   "type": "http://www.opengis.net/ont/crs/CoordinateSystemAxis"
+   "type": "http://www.opengis.net/ont/sf#Polygon"
   },
   {
    "id": 20,
-   "type": "http://www.opengis.net/ont/crs/CoordinateSystemAxis"
+   "type": "http://www.opengis.net/ont/sf#Polygon"
   },
   {
    "id": 21,
+   "type": "http://www.opengis.net/ont/crs/CartesianCS"
+  },
+  {
+   "id": 22,
+   "type": "http://www.opengis.net/ont/crs/CoordinateSystemAxis"
+  },
+  {
+   "id": 23,
+   "type": "http://www.opengis.net/ont/crs/CoordinateSystemAxis"
+  },
+  {
+   "id": 24,
    "type": "http://www.opengis.net/ont/crs/CoordinateSystemAxis"
   }
  ],
@@ -399,8 +411,37 @@ var vowlresult={
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
+   "label": "Annotation of \u1694 on CIIC 153",
+   "annotations": {
+    "http://www.w3.org/ns/oa#hasBody": [
+     {
+      "identifier": "http://www.w3.org/ns/oa#hasBody",
+      "language": "undefined",
+      "value": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_body",
+      "type": "iri"
+     }
+    ],
+    "http://www.w3.org/ns/oa#hasTarget": [
+     {
+      "identifier": "http://www.w3.org/ns/oa#hasTarget",
+      "language": "undefined",
+      "value": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_target",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 10,
+   "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno",
+   "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
+   "instances": 0,
    "label": {
-    "IRI-based": "CIIC_153_3dmodel_c2_anno"
+    "IRI-based": "CIIC_153_3dmodel_i3_anno"
    },
    "annotations": {},
    "range": [],
@@ -409,7 +450,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 10,
+   "id": 11,
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
@@ -423,7 +464,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 11,
+   "id": 12,
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
@@ -437,7 +478,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 12,
+   "id": 13,
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target_selector",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
@@ -451,8 +492,22 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 13,
+   "id": 14,
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno_target_selector",
+   "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
+   "instances": 0,
+   "label": {
+    "IRI-based": "CIIC_153_3dmodel_c2_anno_target_selector"
+   },
+   "annotations": {},
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 15,
+   "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_target_selector",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
    "label": "Annotation target selector of a cross on I-KER-062.obj",
@@ -488,7 +543,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 14,
+   "id": 16,
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
@@ -525,7 +580,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 15,
+   "id": 17,
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
@@ -562,7 +617,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 16,
+   "id": 18,
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target_selector",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
@@ -599,8 +654,45 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 17,
+   "id": 19,
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno_target_selector",
+   "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
+   "instances": 0,
+   "label": "Annotation target selector of \u1694 on CIIC 153",
+   "annotations": {
+    "http://www.w3.org/2004/02/skos/core#definition": [
+     {
+      "identifier": "http://www.w3.org/2004/02/skos/core#definition",
+      "language": "undefined",
+      "value": "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+     {
+      "identifier": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+      "language": "undefined",
+      "value": "<http://localcoordinatesystem> POLYGON Z((0.559329 0.595252 0.083825, 1.142592 0.670718 0.083825, 0.559329 0.670718 0.083825, 0.559329 0.595252 -0.263129, 1.142592 0.595252 -0.263129, 1.142592 0.670718 -0.263129, 0.559329 0.670718 -0.263129))",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/geosparql#inSRS": [
+     {
+      "identifier": "http://www.opengis.net/ont/geosparql#inSRS",
+      "language": "undefined",
+      "value": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 20,
+   "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_target_selector",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
    "label": "Cartesian coordinate system with 3 axis in millimetre units",
@@ -636,7 +728,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 18,
+   "id": 21,
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
@@ -705,7 +797,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 19,
+   "id": 22,
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis1",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
@@ -774,7 +866,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 20,
+   "id": 23,
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis2",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,
@@ -843,7 +935,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 21,
+   "id": 24,
    "iri": "http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis3",
    "baseIRI": "http://Research-Squirrel-Engineers.io/3dannotation_example",
    "instances": 0,

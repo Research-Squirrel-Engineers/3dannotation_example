@@ -180,10 +180,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno",
+        "parent": "http://www.w3.org/ns/oa#Annotation",
+        "type": "instance",
+        "text": "Annotation of \u1694 on CIIC 153 (data:CIIC_153_3dmodel_i3_anno)",
+        "data": {}
+      },
+      {
         "id": "http://www.w3.org/ns/oa#Annotation",
         "parent": "#",
         "type": "class",
-        "text": "Annotation (oa:Annotation) [4]",
+        "text": "Annotation (oa:Annotation) [5]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -242,10 +249,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_target_selector_suniv0_",
+        "parent": "http://www.opengis.net/ont/sf#Polygon",
+        "type": "instance",
+        "text": "Annotation target selector of \u1694 on CIIC 153 (data:CIIC_153_3dmodel_i3_anno_target_selector)",
+        "data": {}
+      },
+      {
         "id": "http://www.opengis.net/ont/sf#Polygon",
         "parent": "#",
         "type": "class",
-        "text": "Polygon (sf:Polygon) [4]",
+        "text": "Polygon (sf:Polygon) [5]",
         "data": {}
       },
       {
@@ -277,10 +291,17 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_target_selector_suniv1_",
+        "parent": "http://www.w3.org/ns/oa#WKTSelector",
+        "type": "instance",
+        "text": "Annotation target selector of \u1694 on CIIC 153 (data:CIIC_153_3dmodel_i3_anno_target_selector)",
+        "data": {}
+      },
+      {
         "id": "http://www.w3.org/ns/oa#WKTSelector",
         "parent": "#",
         "type": "class",
-        "text": "WKTSelector (oa:WKTSelector) [4]",
+        "text": "WKTSelector (oa:WKTSelector) [5]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -289,7 +310,8 @@ var tree={
               "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.opengis.net/ont/geosparql#inSRS": {
-              "instancecount": 1
+              "instancecount": 1,
+              "http://www.opengis.net/ont/crs/CartesianCS": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 2
@@ -356,8 +378,8 @@ var tree={
           "from": {
             "http://www.opengis.net/ont/geosparql#inSRS": {
               "instancecount": 0,
-              "http://www.opengis.net/ont/sf#Polygon": 2,
-              "http://www.w3.org/ns/oa#WKTSelector": 2
+              "http://www.opengis.net/ont/sf#Polygon": 3,
+              "http://www.w3.org/ns/oa#WKTSelector": 3
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -503,7 +525,7 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 3,
-              "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3DModel": 3
+              "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone": 3
             }
           },
           "from": {}
@@ -536,14 +558,14 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 4,
-              "http://www.opengis.net/ont/sf#Polygon": 4,
-              "http://www.w3.org/ns/oa#WKTSelector": 4
+              "instancecount": 5,
+              "http://www.opengis.net/ont/sf#Polygon": 5,
+              "http://www.w3.org/ns/oa#WKTSelector": 5
             }
           },
           "from": {}
         },
-        "instancecount": 8
+        "instancecount": 9
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
