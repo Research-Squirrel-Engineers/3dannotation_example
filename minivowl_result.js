@@ -50,14 +50,14 @@ var minivowlresult={
    "uriTo": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3dmodel"
   },
   {
-   "source": 3,
+   "source": 4,
    "target": 5,
    "valueTo": "inSRS",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#inSRS"
   },
   {
-   "source": 4,
+   "source": 3,
    "target": 5,
    "valueTo": "inSRS",
    "propertyTo": "class",
