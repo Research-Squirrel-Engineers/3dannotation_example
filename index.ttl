@@ -1,0 +1,708 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://www.w3.org/ns/oa#> .
+@prefix ns2: <http://www.opengis.net/ont/crs/> .
+@prefix ns3: <http://situx.github.io/proj4rdf/ont/crs/> .
+@prefix ns4: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix ns5: <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#> .
+@prefix ns6: <http://ldf.fi/void-ext#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/3DModel_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "3DModel Instances Collection"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/Annotation_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Annotation Instances Collection"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CartesianCS_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "CartesianCS Instances Collection"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CoordinateSystemAxis_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "CoordinateSystemAxis Instances Collection"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis1>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis2>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis3> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/OghamStone_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "OghamStone Instances Collection"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/Polygon_collection> a geo:GeometryCollection,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Polygon Instances Collection"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target_selector>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno_target_selector>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_target_selector>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/WKTSelector_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "WKTSelector Instances Collection"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    rdfs:member <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target_selector>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno_target_selector>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_target_selector>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_situx.github.io_proj4rdf_ont_crs_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Linkset: data_dataset - geopesg:"@en ;
+    void:linkPredicate ns3:axisDirection ;
+    void:objectsTarget ns3: ;
+    void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_www.ontology-of-units-of-measure.org_resource_om-2_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Linkset: data_dataset - Ontology of Units of Measurement (om:)"@en ;
+    void:linkPredicate ns4:hasUnit ;
+    void:objectsTarget ns4: ;
+    void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_www.opengis.net_ont_crs_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Linkset: data_dataset - geocrs:"@en ;
+    void:linkPredicate ns2:axisDirection,
+        rdf:type ;
+    void:objectsTarget ns2: ;
+    void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    void:triples 3,
+        4 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_www.opengis.net_ont_geosparql_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Linkset: data_dataset - The GeoSPARQL Ontology (gsp:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget geo: ;
+    void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    void:triples 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_www.opengis.net_ont_sf_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Linkset: data_dataset - Simple Features Vocabulary (sf:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.opengis.net/ont/sf#> ;
+    void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    void:triples 5 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_www.w3.org_2004_02_skos_core_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Linkset: data_dataset - skos:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget skos: ;
+    void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    void:triples 6 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_www.w3.org_ns_oa_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Linkset: data_dataset - Web Annotation Ontology (oa:)"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget ns1: ;
+    void:subjectsTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    void:triples 10 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153> a ns5:OghamStone,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "CIIC 153"@en ;
+    ns5:3dmodel <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel> ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Annotation ;
+    rdfs:label "Annotation of ᚉ on CIIC 153"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns1:hasBody <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_body> ;
+    ns1:hasTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_body> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Annotation body of ᚉ on CIIC 153"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Annotation target of ᚉ on CIIC 153" ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns1:hasSelector <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target_selector> ;
+    ns1:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC153.obj"^^xsd:anyURI .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Annotation ;
+    rdfs:label "Annotation of ᚉ on CIIC 153"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns1:hasBody <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno_body> ;
+    ns1:hasTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno_target> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno_body> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Annotation body of ᚉ on CIIC 153"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno_target> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Annotation target of ᚉ on CIIC 153" ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns1:hasSelector <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno_target_selector> ;
+    ns1:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC153.obj"^^xsd:anyURI .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Annotation ;
+    rdfs:label "Annotation of ᚔ on CIIC 153"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns1:hasBody <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_body> ;
+    ns1:hasTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_target> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_body> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Annotation body of ᚔ on CIIC 153"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_target> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Annotation target of ᚔ on CIIC 153" ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns1:hasSelector <http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_target_selector> ;
+    ns1:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC153.obj"^^xsd:anyURI .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II> a ns5:OghamStone,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Tullaherin II"@en ;
+    ns5:3dmodel <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel> ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Annotation ;
+    rdfs:label "Annotation of a cross on Tullaherin_II"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns1:hasBody <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_body1> ;
+    ns1:hasTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_body1> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Annotation body  of a cross on Tullaherin_II"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Annotation target of ogham signs on Tullaherin_II" ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns1:hasSelector <http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector> ;
+    ns1:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/Tullaherin_II.obj"^^xsd:anyURI .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_3dmodel> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: 3dmodel"@en ;
+    void:property ns5:3dmodel ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_abbreviation> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: abbreviation"@en ;
+    void:property ns3:abbreviation,
+        ns2:abbreviation ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_asSVG> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: asSVG"@en ;
+    void:property ns3:asSVG ;
+    void:triples 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_asWKT> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: asWKT"@en ;
+    void:property ns3:asWKT ;
+    void:triples 1 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_axis> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: axis"@en ;
+    void:property ns3:axis ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_axisDirection> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: axisDirection"@en ;
+    void:property ns3:axisDirection,
+        ns2:axisDirection ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_axisOrder> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: axisOrder"@en ;
+    void:property ns3:axisOrder,
+        ns2:axisOrder ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_definition> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: definition"@en ;
+    void:property skos:definition ;
+    void:triples 5 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasBody> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: hasBody"@en ;
+    void:property ns1:hasBody ;
+    void:triples 5 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasSelector> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: hasSelector"@en ;
+    void:property ns1:hasSelector ;
+    void:triples 5 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasSource> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: hasSource"@en ;
+    void:property ns1:hasSource ;
+    void:triples 5 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasTarget> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: hasTarget"@en ;
+    void:property ns1:hasTarget ;
+    void:triples 5 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasUnit> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: hasUnit"@en ;
+    void:property ns4:hasUnit ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_image> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: image"@en ;
+    void:property foaf:image ;
+    void:triples 3 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_inSRS> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: inSRS"@en ;
+    void:property geo:inSRS ;
+    void:triples 5 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_label> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: label"@en ;
+    void:property rdfs:label ;
+    void:triples 30 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_type> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: type"@en ;
+    void:property rdf:type ;
+    void:triples 25 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_value> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Property Partition: value"@en ;
+    void:property rdf:value ;
+    void:triples 5 .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone> a ns5:OghamStone,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Ogham Stone"@en ;
+    ns5:3dmodel <http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel> ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        ns1:Annotation ;
+    rdfs:label "Annotation of a cross on I-KER-062.obj"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns1:hasBody <http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_body1> ;
+    ns1:hasTarget <http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_body1> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Annotation body  of a cross on I-KER-062.obj"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Annotation target of a cross on I-KER-062.obj" ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns1:hasSelector <http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector> ;
+    ns1:hasSource "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/I-KER-062.obj"^^xsd:anyURI .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel> a ns5:3DModel,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "3D Model of CIIC 153"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    foaf:image "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/CIIC153.obj"^^xsd:anyURI .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel> a ns5:3DModel,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "3D Model of Tullaherin II"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    foaf:image "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/Tullaherin_II.obj"^^xsd:anyURI .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis1> a ns2:CoordinateSystemAxis,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Cartesian coordinate system with 3 axis in millimetre units: Axis 1"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns3:abbreviation "X" ;
+    ns3:axisDirection ns3:geocentricX ;
+    ns3:axisOrder "1"^^xsd:int ;
+    ns4:hasUnit ns4:millimetre ;
+    ns2:abbreviation "X" ;
+    ns2:axisDirection ns2:geocentricX ;
+    ns2:axisOrder "1"^^xsd:int .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis2> a ns2:CoordinateSystemAxis,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Cartesian coordinate system with 3 axis in millimetre units: Axis 2"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns3:abbreviation "Y" ;
+    ns3:axisDirection ns3:geocentricY ;
+    ns3:axisOrder "2"^^xsd:int ;
+    ns4:hasUnit ns4:millimetre ;
+    ns2:abbreviation "Y" ;
+    ns2:axisDirection ns2:geocentricY ;
+    ns2:axisOrder "2"^^xsd:int .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis3> a ns2:CoordinateSystemAxis,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Cartesian coordinate system with 3 axis in millimetre units: Axis 3"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns3:abbreviation "Z" ;
+    ns3:axisDirection ns3:geocentricZ ;
+    ns3:axisOrder "3"^^xsd:int ;
+    ns4:hasUnit ns4:millimetre ;
+    ns2:abbreviation "Z" ;
+    ns2:axisDirection ns2:geocentricZ ;
+    ns2:axisOrder "3"^^xsd:int .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel> a ns5:3DModel,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "3D Model of Ogham Stone"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    foaf:image "https://raw.githubusercontent.com/Research-Squirrel-Engineers/3dannotation_example/main/I-KER-062.obj"^^xsd:anyURI .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target_selector> a <http://www.opengis.net/ont/sf#Polygon>,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        ns1:WKTSelector ;
+    rdfs:label "Annotation target selector of ᚉ on CIIC 153"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    geo:inSRS <http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm> ;
+    rdf:value "<http://localcoordinatesystem> POLYGON Z((1.430254 0.446976 0.634666, 2.016316 0.667597 0.634666, 1.430254 0.667597 0.634666, 1.430254 0.446976 0.010635, 2.016316 0.446976 0.010635, 2.016316 0.667597 1.430254, 1.430254 0.667597 0.010635))"^^ns1:wktLiteral ;
+    skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_c2_anno_target_selector> a <http://www.opengis.net/ont/sf#Polygon>,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        ns1:WKTSelector ;
+    rdfs:label "Annotation target selector of ᚉ on CIIC 153"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    geo:inSRS <http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm> ;
+    rdf:value "<http://localcoordinatesystem> POLYGON Z((1.037055 0.454591 0.524368, 1.462202 0.670359 0.524368, 1.037055 0.670359 0.524368, 1.037055 0.454591 -0.030830, 1.462202 0.454591 -0.030830, 1.462202 0.670359 -0.030830, 1.037055 0.670359 -0.030830))"^^ns1:wktLiteral ;
+    skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_target_selector> a <http://www.opengis.net/ont/sf#Polygon>,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        ns1:WKTSelector ;
+    rdfs:label "Annotation target selector of ᚔ on CIIC 153"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    geo:inSRS <http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm> ;
+    rdf:value "<http://localcoordinatesystem> POLYGON Z((0.559329 0.595252 0.083825, 1.142592 0.670718 0.083825, 0.559329 0.670718 0.083825, 0.559329 0.595252 -0.263129, 1.142592 0.595252 -0.263129, 1.142592 0.670718 -0.263129, 0.559329 0.670718 -0.263129))"^^ns1:wktLiteral ;
+    skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector> a <http://www.opengis.net/ont/sf#Polygon>,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        ns1:WKTSelector ;
+    rdfs:label "Annotation target selector of Ogham D[...]T (ᚇ[...]ᚈ) on Tullaherin II"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    geo:inSRS ns5:cartesian_ax3_mm ;
+    rdf:value "<http://localcoordinatesystem> POLYGON Z((1.029469 -4.003649 1.592225, 1.560513 -2.618507 1.592225, 1.029469 -2.618507 1.592225, 1.029469 -4.003649 0.240015, 1.560513 -4.003649 0.240015, 1.560513 -2.618507 0.240015, 1.029469 -2.618507 1.592225))"^^ns1:wktLiteral ;
+    skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector> a <http://www.opengis.net/ont/sf#Polygon>,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        ns1:WKTSelector ;
+    rdfs:label "Annotation target selector of a cross on I-KER-062.obj"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    geo:inSRS ns5:cartesian_ax3_mm ;
+    rdf:value "<http://localcoordinatesystem> POLYGON Z((-0.170012 -0.578254 0.421926, -0.13942 0.0783338 0.421926, -0.170012 0.0783338 0.421926, -0.170012 -0.578254 -0.302014, -0.13942 -0.578254 -0.302014, -0.13942 0.0783338 -0.302014, -0.170012 0.0783338 -0.302014))"^^ns1:wktLiteral ;
+    skos:definition "The annotation target selector is a bounding box in WKT POLYGON Z((minX minY maxZ, maxX maxY maxZ, minX maxY maxZ, minX minY minZ, maxX minY minZ, maxX maxY minZ, minX maxY minZ)) plus first coordinate to close the polygon"@en .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm> a ns2:CartesianCS,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "Cartesian coordinate system with 3 axis in millimetre units"@en ;
+    void:inDataset <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> ;
+    ns3:asSVG "<svg width='400' height='250' viewbox='0 0 375 220'><defs><marker id='arrowhead' markerWidth='10' markerHeight='7' refX='0' refY='2' orient='auto'><polygon points='0 0, 4 2, 0 4' /></marker></defs><line x1='20' y1='200' x2='200' y2='200' stroke='red' stroke-width='5' marker-end='url(#arrowhead)'></line><text x='110' y='220' class='small'>X: Cartesian X Axis (om:millimetre)</text><line x1='20' y1='200' x2='20' y2='20' stroke='green' stroke-width='5' marker-end='url(#arrowhead)'></line><text x='35' y='20' class='small'>Y: Cartesian Y Axis (om:millimetre)</text><line x1='20' y1='200' x2='190' y2='30' stroke='blue' stroke-width='5' marker-end='url(#arrowhead)'></line><text x='210' y='25' class='small'>Z: Cartesian Z Axis (om:millimetre)</text></svg>"^^ns3:svgLiteral ;
+    ns3:asWKT "CS[\"cartesian\",3],AXIS[\"X\", \"geocentricX\", ORDER[1],            LENGTHUNIT[\"millimetre\",1]        ],        AXIS[\"Y\", \"geocentricY\", ORDER[2],            LENGTHUNIT[\"millimetre\",1]        ],        AXIS[\"Z\", \"geocentricZ\", ORDER[3],            LENGTHUNIT[\"millimetre\",1]        ]]"^^<http://www.opengis.net/ont/geosparql/crs#wktLiteral> ;
+    ns3:axis <http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis1>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis2>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/cartesian_ax3_mm_axis3> .
+
+<http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset> a void:Dataset,
+        <http://www.w3.org/ns/adms#Asset>,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource> ;
+    rdfs:label "data_dataset"@en ;
+    ns6:averageLiteralLength 80 ;
+    ns6:averageObjectIRILength 70 ;
+    ns6:averagePropertyIRILength 44 ;
+    ns6:averageSubjectIRILength 85 ;
+    ns6:datatypes 5 ;
+    ns6:distinctBlankNodes 0 ;
+    ns6:distinctIRIReferences 140 ;
+    ns6:distinctLiterals 50 ;
+    ns6:distinctRDFNodes 190 ;
+    ns6:languages 1 ;
+    ns6:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-03-05T18:21:04"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "data_dataset"@en ;
+    vann:preferredNamespacePrefix "data"^^xsd:string ;
+    vann:preferredNamespaceUri "http://Research-Squirrel-Engineers.io/3dannotation_example/"^^xsd:anyURI ;
+    void:classPartition <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_3DModel>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_Annotation>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_CartesianCS>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_Collection>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_CoordinateSystemAxis>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_GeometryCollection>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_OghamStone>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_Polygon>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_SpatialObjectCollection>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_WKTSelector> ;
+    void:classes 10 ;
+    void:dataDump <https://Research-Squirrel-Engineers.github.io/3dannotation_example/index.ttl> ;
+    void:distinctObjects 80 ;
+    void:distinctSubjects 39 ;
+    void:entities 38 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 21 ;
+    void:propertyPartition <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_3dmodel>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_abbreviation>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_asSVG>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_asWKT>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_axis>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_axisDirection>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_axisOrder>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_definition>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasBody>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasSelector>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasSource>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasTarget>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_hasUnit>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_image>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_inSRS>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_label>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_type>,
+        <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_value> ;
+    void:triples 200 ;
+    void:uriSpace "http://Research-Squirrel-Engineers.io/3dannotation_example/"^^xsd:string ;
+    void:vocabulary ns6:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        <http://purl.org/vocommons/voaf#>,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        <http://www.w3.org/ns/adms#>,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://Research-Squirrel-Engineers.io/3dannotation_example/data_dataset_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://Research-Squirrel-Engineers.github.io/3dannotation_example> ;
+    foaf:homepage <https://Research-Squirrel-Engineers.github.io/3dannotation_example> ;
+    foaf:page <https://Research-Squirrel-Engineers.github.io/3dannotation_example/index.html> .
+

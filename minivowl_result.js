@@ -43,13 +43,6 @@ var minivowlresult={
  ],
  "links": [
   {
-   "source": 0,
-   "target": 1,
-   "valueTo": "3dmodel",
-   "propertyTo": "class",
-   "uriTo": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3dmodel"
-  },
-  {
    "source": 4,
    "target": 5,
    "valueTo": "inSRS",
@@ -62,6 +55,13 @@ var minivowlresult={
    "valueTo": "inSRS",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#inSRS"
+  },
+  {
+   "source": 0,
+   "target": 1,
+   "valueTo": "3dmodel",
+   "propertyTo": "class",
+   "uriTo": "http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3dmodel"
   },
   {
    "source": 5,

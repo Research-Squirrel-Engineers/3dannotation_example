@@ -1,0 +1,179 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://www.w3.org/ns/solid/terms#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl> a <http://www.w3.org/ns/ldp#RDFResource>,
+        ns1:ListedDocument,
+        ns1:TypeIndex ;
+    rdfs:label "Public Type Index"@en ;
+    rdfs:comment "This Document contains a list of links to other Documents, along with the type of data that is to be included in those Documents"@en ;
+    rdfs:member <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#3DModel>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#3DModel_collection>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Annotation>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Annotation_collection>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_c1_anno>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_c1_anno_target_selector_suniv0_>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_c1_anno_target_selector_suniv1_>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_c2_anno>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_c2_anno_target_selector_suniv0_>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_c2_anno_target_selector_suniv1_>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_i3_anno>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_i3_anno_target_selector_suniv0_>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_i3_anno_target_selector_suniv1_>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CartesianCS>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CartesianCS_collection>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Collection>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CoordinateSystemAxis>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CoordinateSystemAxis_collection>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#GeometryCollection>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#OghamStone>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#OghamStone_collection>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Polygon>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Polygon_collection>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#SpatialObjectCollection>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Tullaherin_II>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Tullaherin_II_3dmodel>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Tullaherin_II_3dmodel_dt_anno>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Tullaherin_II_3dmodel_dt_anno_target_selector_suniv0_>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Tullaherin_II_3dmodel_dt_anno_target_selector_suniv1_>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#WKTSelector>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#WKTSelector_collection>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#cartesian_ax3_mm>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#cartesian_ax3_mm_axis1>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#cartesian_ax3_mm_axis2>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#cartesian_ax3_mm_axis3>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#ogham_stone>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#ogham_stone_3dmodel>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#ogham_stone_3dmodel_crossanno>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#ogham_stone_3dmodel_crossanno_target_selector_suniv0_>,
+        <https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#ogham_stone_3dmodel_crossanno_target_selector_suniv1_> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#3DModel> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/3DModel> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#3DModel_collection> ns1:forClass skos:Collection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/3DModel_collection> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Annotation> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/Annotation> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Annotation_collection> ns1:forClass skos:Collection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/Annotation_collection> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153> ns1:forClass <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CIIC_153> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel> ns1:forClass <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3DModel> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CIIC_153_3dmodel> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_c1_anno> ns1:forClass <http://www.w3.org/ns/oa#Annotation> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CIIC_153_3dmodel_c1_anno> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_c1_anno_target_selector_suniv0_> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target_selector_suniv0_> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_c1_anno_target_selector_suniv1_> ns1:forClass <http://www.w3.org/ns/oa#WKTSelector> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CIIC_153_3dmodel_c1_anno_target_selector_suniv1_> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_c2_anno> ns1:forClass <http://www.w3.org/ns/oa#Annotation> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CIIC_153_3dmodel_c2_anno> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_c2_anno_target_selector_suniv0_> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CIIC_153_3dmodel_c2_anno_target_selector_suniv0_> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_c2_anno_target_selector_suniv1_> ns1:forClass <http://www.w3.org/ns/oa#WKTSelector> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CIIC_153_3dmodel_c2_anno_target_selector_suniv1_> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_i3_anno> ns1:forClass <http://www.w3.org/ns/oa#Annotation> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CIIC_153_3dmodel_i3_anno> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_i3_anno_target_selector_suniv0_> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_target_selector_suniv0_> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CIIC_153_3dmodel_i3_anno_target_selector_suniv1_> ns1:forClass <http://www.w3.org/ns/oa#WKTSelector> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CIIC_153_3dmodel_i3_anno_target_selector_suniv1_> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CartesianCS> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CartesianCS> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CartesianCS_collection> ns1:forClass skos:Collection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CartesianCS_collection> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Collection> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/Collection> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CoordinateSystemAxis> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CoordinateSystemAxis> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#CoordinateSystemAxis_collection> ns1:forClass skos:Collection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/CoordinateSystemAxis_collection> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#GeometryCollection> ns1:forClass geo:SpatialObjectCollection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/GeometryCollection> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#OghamStone> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/OghamStone> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#OghamStone_collection> ns1:forClass skos:Collection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/OghamStone_collection> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Polygon> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/Polygon> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Polygon_collection> ns1:forClass geo:GeometryCollection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/Polygon_collection> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#SpatialObjectCollection> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/SpatialObjectCollection> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Tullaherin_II> ns1:forClass <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/Tullaherin_II> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Tullaherin_II_3dmodel> ns1:forClass <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3DModel> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/Tullaherin_II_3dmodel> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Tullaherin_II_3dmodel_dt_anno> ns1:forClass <http://www.w3.org/ns/oa#Annotation> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Tullaherin_II_3dmodel_dt_anno_target_selector_suniv0_> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector_suniv0_> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#Tullaherin_II_3dmodel_dt_anno_target_selector_suniv1_> ns1:forClass <http://www.w3.org/ns/oa#WKTSelector> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/Tullaherin_II_3dmodel_dt_anno_target_selector_suniv1_> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#WKTSelector> ns1:forClass <#> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/WKTSelector> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#WKTSelector_collection> ns1:forClass skos:Collection ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/WKTSelector_collection> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#cartesian_ax3_mm> ns1:forClass <http://www.opengis.net/ont/crs/CartesianCS> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/cartesian_ax3_mm> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#cartesian_ax3_mm_axis1> ns1:forClass <http://www.opengis.net/ont/crs/CoordinateSystemAxis> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/cartesian_ax3_mm_axis1> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#cartesian_ax3_mm_axis2> ns1:forClass <http://www.opengis.net/ont/crs/CoordinateSystemAxis> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/cartesian_ax3_mm_axis2> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#cartesian_ax3_mm_axis3> ns1:forClass <http://www.opengis.net/ont/crs/CoordinateSystemAxis> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/cartesian_ax3_mm_axis3> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#ogham_stone> ns1:forClass <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#OghamStone> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/ogham_stone> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#ogham_stone_3dmodel> ns1:forClass <http://Research-Squirrel-Engineers.io/3dannotation_example/ont#3DModel> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/ogham_stone_3dmodel> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#ogham_stone_3dmodel_crossanno> ns1:forClass <http://www.w3.org/ns/oa#Annotation> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/ogham_stone_3dmodel_crossanno> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#ogham_stone_3dmodel_crossanno_target_selector_suniv0_> ns1:forClass <http://www.opengis.net/ont/sf#Polygon> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector_suniv0_> .
+
+<https://Research-Squirrel-Engineers.github.io/3dannotation_example/settings/publicTypeIndex.ttl#ogham_stone_3dmodel_crossanno_target_selector_suniv1_> ns1:forClass <http://www.w3.org/ns/oa#WKTSelector> ;
+    ns1:instance <https://Research-Squirrel-Engineers.github.io/3dannotation_example/ogham_stone_3dmodel_crossanno_target_selector_suniv1_> .
+
